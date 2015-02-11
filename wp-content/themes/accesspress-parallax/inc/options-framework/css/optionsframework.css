@@ -1,0 +1,385 @@
+/* Options Framework Admin Styles */
+
+#optionsframework {
+    width:760px;
+    background:#fff;
+    float: left;
+}
+#optionsframework-wrap h2.nav-tab-wrapper{
+	padding: 10px 0 0;
+}
+#optionsframework h3 {
+	cursor: default;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+}
+#optionsframework h4{
+	margin: 0 0 10px;
+}
+#optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#optionsframework img{
+	max-width: 100%;
+}
+#optionsframework .section {
+	padding:10px 0;
+	margin: 0 10px;
+	border-bottom:1px dashed #EEE;
+}
+#optionsframework .group {
+	padding-bottom:40px;
+}
+#optionsframework .section .controls {
+}
+#optionsframework .section .explain {
+	font-size: 13px;
+	line-height:16px;
+	color: #666;
+	font-style: italic;
+}
+#optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+#optionsframework .controls input[type=text] {
+	width:100%;
+}
+#optionsframework .controls input[type=text].wp-color-picker {
+    width: 65px;
+}
+#optionsframework .controls select, #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#optionsframework input.checkbox, #optionsframework input.of-radio {
+	margin: 0 10px 5px 0;
+	float:left;
+	clear:both;
+}
+#optionsframework .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#optionsframework .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#optionsframework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-typography .wp-picker-container {
+	margin-top:2px;
+}
+#optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-size {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#optionsframework .hide {
+	display:none;
+}
+#optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+	width: 140px;
+}
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+	width:80%;
+}
+#optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#optionsframework .screenshot img {
+	background:#fafafa;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#optionsframework .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#optionsframework .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#optionsframework #optionsframework-submit .button-primary {
+	float:right;
+}
+#optionsframework .section:after, 
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+#optionsframework .section:after,
+.clearfix:after  {
+	clear: both;
+}
+#section-parallax_section .sub-option{
+	margin-bottom: 15px;
+	border:1px solid #ddd;
+}
+#section-parallax_section .sub-option:hover{
+	background: #EEE;
+}
+#section-parallax_section .sub-option .sub-option-inner{
+	padding: 10px;
+	position: relative;
+	border-top: 1px solid #ddd;
+}
+#section-parallax_section .sub-option .sub-option-inner > .button-primary{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#optionsframework #section-parallax_section.section .controls{
+	min-width: 100%;
+	width: 100%;
+}
+.inline-label label{
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+}
+#optionsframework #section-parallax_section .controls select{
+	width: 400px;
+}
+#optionsframework #section-parallax_section .controls input.upload{
+	width: 325px;
+	height: 28px;
+}
+#optionsframework #section-parallax_section .background-settings{
+	display: inline-block;
+}
+#optionsframework #section-parallax_section .controls .of-background-repeat{
+	width: 160px;
+}
+#optionsframework #section-parallax_section .controls .of-background-position{
+	width: 120px;
+}
+#optionsframework #section-parallax_section .controls .of-background-attachment{
+	width: 150px; 
+}
+#optionsframework #section-parallax_section .controls .of-background-size{
+	width: 100px; 
+}
+#optionsframework #section-parallax_section .screenshot{
+	margin-left: 152px;
+}
+#optionsframework #section-parallax_section h3{
+	padding: 0 0 0 10px;
+	line-height: 40px;
+	cursor: move;
+	border-bottom: 0;
+}
+.section-toggle{
+	float: right;
+	height: 40px;
+	width: 40px;
+	background: #999;
+	color: #FFF;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.theme-header{
+	background: #222222;
+	padding: 20px;
+}
+.theme-header .accesspresslite-logo{
+	float: left;
+}
+.theme-header .ak-socials{
+	float: right;
+	color: #FFF;
+	text-align: right;
+}
+.theme-header .ak-socials p{
+	margin-top: 0;
+}
+.update-banner{
+	float: left;
+	margin-left: 10px;
+	width: 300px;
+}
+.button-link {
+    background: none repeat scroll 0 0 #fff;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding: 10px;
+    text-align: center;
+}
+#optionsframework-metabox a {
+    box-shadow: none;
+}
+.any-question {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.ap-popup-bg{
+	position: fixed;
+	background: #000;
+	background: rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+}
+.ap-popup-wrapper{
+	position: fixed;
+	width: 340px;
+	left: 50%;
+	top:50%;
+	margin-left: -170px;
+	margin-top: -140px;
+	z-index: 99999999;
+	background: #FFF;
+	padding: 10px;
+}
+.ap-popup-close{
+	position: absolute;
+	right: -10px;
+	top:-10px;
+	background: #000;
+	height: 26px;
+	width: 26px;
+	text-align: center;
+	line-height: 26px;
+	color: #FFF;
+	font-size:20px;
+	cursor: pointer;
+}
+.ap-popup-wrapper h4{
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	margin: 2px 0 10px;
+	color: #E66432;
+	line-height:16px;
+}
