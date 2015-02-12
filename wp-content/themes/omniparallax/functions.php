@@ -16,7 +16,7 @@ function theme_enqueue_styles() {
 /**
  * Unhook original bxSlider Callback
  */
-add_action('init','unhook_accesspress_bxslidercb');
+// add_action('init','unhook_accesspress_bxslidercb');
 function unhook_accesspress_bxslidercb() {
     remove_action('accesspress_bxslider','accesspress_bxslidercb', 10);
 }
