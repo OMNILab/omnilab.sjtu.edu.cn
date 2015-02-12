@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/our-team"]
+	path = wp-content/plugins/our-team
+	url = git@github.com:woothemes/our-team.git

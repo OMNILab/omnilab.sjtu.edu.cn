@@ -100,7 +100,7 @@
 	endif; 
 	endforeach;
     else:
-        get_template_part('demo');
+        get_template_part('omnilab');
 	endif;
 
 ?>
