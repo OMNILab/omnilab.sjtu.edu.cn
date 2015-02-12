@@ -1,17 +1,12 @@
 <?php
 /**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * Template Name: Wide Page
  *
  * @package accesspress_parallax
  */
 
-
 get_header(); ?>
+
 <div class="mid-content">
 	<main id="main" class="site-main" role="main">
 
@@ -27,6 +22,6 @@ get_header(); ?>
 		endif; ?>
 
 	</main><!-- #main -->
-
 </div>
+
 <?php get_footer(); ?>

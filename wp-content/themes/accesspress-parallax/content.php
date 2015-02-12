@@ -1,5 +1,7 @@
 <?php
 /**
+ * The template used for displaying a blog post.
+ *
  * @package accesspress_parallax
  */
 ?>

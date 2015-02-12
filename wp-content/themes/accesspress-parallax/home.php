@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying all blogs.
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,26 +14,24 @@ get_header(); ?>
 
 <div class="mid-content">
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main">
 
-			<?php
-			global $page;
-			if(of_get_option('enable_parallax') == "0" || is_singular()): ?>
+			<?php if ( have_posts() ) : ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
+					<?php get_template_part('content'); ?>
+				<?php endwhile; ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php accesspress_parallax_paging_nav(); ?>
 
-			<?php endwhile; ?>
-			<?php else:
-
- 			echo wpautop($page->post_content);
-
-			endif; ?>
+			<?php else : ?>
+				<?php get_template_part( 'content', 'none' ); ?>
+			<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<?php get_sidebar(); ?>
+
+	<?php get_sidebar(); ?>
 </div>
 
 <?php get_footer(); ?>

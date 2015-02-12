@@ -34,7 +34,7 @@
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		<?php endif; ?>
-		</div>
+		</div><!-- #sitelogo -->
 
 		<nav id="site-navigation" class="main-navigation">
 		<div class="menu-toggle"><?php _e( 'Menu', 'accesspress_parallax' ); ?></div>
@@ -84,8 +84,9 @@
 	endif;
 	?>
 	<div id="content" class="site-content <?php echo $content_class; ?>">
-	<?php 
-	if(is_home() || is_front_page()) :
+	<?php
+	// show slider in front page merely
+	if( is_front_page() ) :
 		do_action('accesspress_bxslider'); 
 	endif;
 	?>
