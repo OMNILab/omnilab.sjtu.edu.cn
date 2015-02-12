@@ -24,7 +24,7 @@ function unhook_accesspress_bxslidercb() {
 /**
  * Hook a new bxSlider callback
  */
-add_action('accesspress_bxslider','my_accesspress_bxslidercb', 10);
+// add_action('accesspress_bxslider','my_accesspress_bxslidercb', 10);
 function my_accesspress_bxslidercb(){
     global $post;
     $accesspress_parallax = of_get_option('parallax_section');
