@@ -182,26 +182,26 @@ function accesspress_bxslidercb(){
 
             <div class="bx-slider">
 				<div class="slides">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/omnilab/slider1.jpg" alt="slider1">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/demo/slider1.jpg" alt="slider1">
 					<div class="slider-caption">
 						<div class="mid-content">
-							<h1 class="caption-title">Welcome to OMNILab!</h1>
+							<h1 class="caption-title">Welcome to AccessPress Parallax!</h1>
 							<h2 class="caption-description">
-							<p>A place for innovation, creation and hacking with Open Data!</p>
-							<p><a href="researches">Read More</a></p>
+							<p>A full featured parallax theme – and its absolutely free!</p>
+							<p><a href="#">Read More</a></p>
 							</h2>
 						</div>
 					</div>
 				</div>
 						
 				<div class="slides">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/omnilab/slider2.jpg" alt="slider2">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/demo/slider2.jpg" alt="slider2">
 					<div class="slider-caption">
 						<div class="ak-container">
-							<h1 class="caption-title">Amazing data mining hand-ons!</h1>
+							<h1 class="caption-title">Amazing multi-purpose parallax theme</h1>
 							<h2 class="caption-description">
-							<p>Practical data analysis techniques, tutorials, courses, and competetions – useful for anyone and everyone</p>
-							<p><a href="projects">Read More</a></p>
+							<p>Travel, corporate, small biz, portfolio, agencies, photography, health, creative – useful for anyone and everyone</p>
+							<p><a href="#">Read More</a></p>
 							</h2>
 							</div>
 					</div>
@@ -373,8 +373,3 @@ function accesspress_letter_count($content, $limit) {
 	return $limit_content;
 }
 add_filter('widget_text', 'do_shortcode');
-
-
-/**************************************************************
- * FUNCTIONS USED BY OMNILAB HOMESITE
- *************************************************************/

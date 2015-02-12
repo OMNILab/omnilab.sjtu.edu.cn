@@ -1,0 +1,67 @@
+/*
+ Theme Name:   OmniParallax
+ Theme URI:    https://github.com/OMNILab/omnilab.sjtu.edu.cn/
+ Description:  AccessPress Parallax Child Theme Used in OMNILab
+ Author:       Xiaming Chen
+ Author URI:   http://hsiamin.com
+ Template:     accesspress-parallax
+ Version:      0.1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, parallax, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  omniparallax
+
+ This theme, like WordPress, is licensed under the GPL.
+ Use it to make something cool, have fun, and share what you've learned with others.
+
+ OmniParallax is based on AccessPress Parallax http://accesspressthemes.com, (C) 2015 OMNILab, SJTU.
+*/
+
+/*--------------------------------------------------------------
+Our Team plugin
+--------------------------------------------------------------*/
+.widget_woothemes_our_team .columns-2,
+.widget_woothemes_our_team .columns-3,
+.widget_woothemes_our_team .columns-4,
+.widget_woothemes_our_team .columns-5,
+.widget_woothemes_our_team .columns-6 {
+    overflow: hidden;
+    zoom: 1;
+}
+.widget_woothemes_our_team .columns-2 .team-member,
+.widget_woothemes_our_team .columns-3 .team-member,
+.widget_woothemes_our_team .columns-4 .team-member,
+.widget_woothemes_our_team .columns-5 .team-member,
+.widget_woothemes_our_team .columns-6 .team-member {
+    float: left;
+    margin-right: 3.8%;
+}
+.widget_woothemes_our_team .columns-2 .team-member.first,
+.widget_woothemes_our_team .columns-3 .team-member.first,
+.widget_woothemes_our_team .columns-4 .team-member.first,
+.widget_woothemes_our_team .columns-5 .team-member.first,
+.widget_woothemes_our_team .columns-6 .team-member.first {
+    clear: both;
+}
+.widget_woothemes_our_team .columns-2 .team-member.last,
+.widget_woothemes_our_team .columns-3 .team-member.last,
+.widget_woothemes_our_team .columns-4 .team-member.last,
+.widget_woothemes_our_team .columns-5 .team-member.last,
+.widget_woothemes_our_team .columns-6 .team-member.last {
+    margin-right: 0;
+}
+.widget_woothemes_our_team .columns-2 .team-member {
+    width: 48%;
+}
+.widget_woothemes_our_team .columns-3 .team-member {
+    width: 30.75%;
+}
+.widget_woothemes_our_team .columns-4 .team-member {
+    width: 22.05%;
+}
+.widget_woothemes_our_team .columns-5 .team-member {
+    width: 16.9%;
+}
+.widget_woothemes_our_team .columns-6 .team-member {
+    width: 13.5%;
+}

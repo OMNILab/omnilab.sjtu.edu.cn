@@ -47,10 +47,10 @@
 		<div class="bottom-footer">
 			<div class="mid-content clearfix">
 				<div  class="copy-right">
-					&copy; <?php echo date('Y')." "; bloginfo('name'); ?>  
+					&copy; <?php echo date('Y').". OMNILab. All Right Reserved."; ?>
 				</div><!-- .copy-right -->
 				<div class="site-info">
-					<?php _e('AccessPress Parallax by','accesspress_parallax'); ?> <a href="<?php echo esc_url('http://accesspressthemes.com/','accesspress_parallax'); ?>" title="AccessPress Themes" target="_blank">AccessPress Themes</a>
+					<?php _e('Powered by','accesspress_parallax'); ?> <a href="<?php echo esc_url('http://www.wordpress.com/','accesspress_parallax'); ?>" title="WordPress" target="_blank">WordPress</a>
 				</div><!-- .site-info -->
 			</div>
 		</div>
