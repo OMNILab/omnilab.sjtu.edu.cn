@@ -12,12 +12,12 @@ Main site of OMNILab at Shanghai Jiao Tong University.
 1. Install basic Web utilities including Web server, PHP, MySQL etc.
 2. Clone this code repository into local web root folder, e.g.,
 
->    $ git clone git@github.com:OMNILab/omnilab.sjtu.edu.cn.git /www/omnilab
+    $ git clone git@github.com:OMNILab/omnilab.sjtu.edu.cn.git /www/omnilab
 
 3. Create new WordPress configuration file and change database settings for
 your requirements:
 
->    $ cp wp-config-sample.php wp-config.php
+    $ cp wp-config-sample.php wp-config.php
 
 ### Post-Installation
 
