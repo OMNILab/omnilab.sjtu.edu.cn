@@ -2,7 +2,7 @@
 /**
  * accesspress_parallax_omnilab functions and definitions
  *
- * @package accesspress_parallax_omnilab
+ * @package omniparallax
  */
 
 /**

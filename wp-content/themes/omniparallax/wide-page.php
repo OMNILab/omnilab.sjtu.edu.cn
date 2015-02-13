@@ -2,7 +2,7 @@
 /**
  * Template Name: Wide Page
  *
- * @package accesspress_parallax
+ * @package omniparallax
  */
 
 get_header(); ?>

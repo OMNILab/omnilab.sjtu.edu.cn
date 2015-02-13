@@ -2,7 +2,7 @@
 /**
  * The fallback template if specific requested pages do not exist.
  *
- * @package accesspress_parallax
+ * @package omniparallax
  */
 ?>
 

@@ -1,6 +1,8 @@
 <?php
 /**
  * A template to display team member content
+ *
+ * @package omniparallax
  */
 global $post;
 ?>

@@ -2,7 +2,7 @@
 /**
  * The template file for displaying all blog entries.
  *
- * @package accesspress_parallax
+ * @package omniparallax
  */
 ?>
 <div class="mid-content">

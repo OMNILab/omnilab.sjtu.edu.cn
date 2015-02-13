@@ -2,7 +2,7 @@
 /**
  * The template for displaying blog home page.
  *
- * @package accesspress_parallax
+ * @package omniparallax
  */
 
 get_header();
