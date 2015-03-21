@@ -17,51 +17,124 @@
  OmniParallax is based on AccessPress Parallax http://accesspressthemes.com, (C) 2015 OMNILab, SJTU.
 */
 
-/*--------------------------------------------------------------
-Our Team plugin
---------------------------------------------------------------*/
-.widget_woothemes_our_team .columns-2,
-.widget_woothemes_our_team .columns-3,
-.widget_woothemes_our_team .columns-4,
-.widget_woothemes_our_team .columns-5,
-.widget_woothemes_our_team .columns-6 {
+/*---------------------------------------------------------------------------------*/
+/*  Team Members of HUMNET
+/*---------------------------------------------------------------------------------*/
+
+.team {
+    text-align: center;
+}
+.team-members-title {
+    margin: auto;
+    margin-bottom: 60px;
+}
+.team-members-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+ul.team-members {
+    margin: 0 -6px;
+    display: inline-block;
+    text-align: center;
+}
+.team-members li {
+    padding: 0 3px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.team-member {
     overflow: hidden;
-    zoom: 1;
+    position: relative;
+    width: 285px;
+    height: 285px;
 }
-.widget_woothemes_our_team .columns-2 .team-member,
-.widget_woothemes_our_team .columns-3 .team-member,
-.widget_woothemes_our_team .columns-4 .team-member,
-.widget_woothemes_our_team .columns-5 .team-member,
-.widget_woothemes_our_team .columns-6 .team-member {
-    float: left;
-    margin-right: 3.8%;
+.team-member-image {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -ms-transition: -ms-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
 }
-.widget_woothemes_our_team .columns-2 .team-member.first,
-.widget_woothemes_our_team .columns-3 .team-member.first,
-.widget_woothemes_our_team .columns-4 .team-member.first,
-.widget_woothemes_our_team .columns-5 .team-member.first,
-.widget_woothemes_our_team .columns-6 .team-member.first {
-    clear: both;
+.team-member-overlay {
+    color: #fff;
+    background-color: #00b688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    opacity: 1;
+    text-align: center;
+    display: inline;
+
+    -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out, -moz-transform 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out, -ms-transform 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out, -o-transform 0.3s ease-out;
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
 }
-.widget_woothemes_our_team .columns-2 .team-member.last,
-.widget_woothemes_our_team .columns-3 .team-member.last,
-.widget_woothemes_our_team .columns-4 .team-member.last,
-.widget_woothemes_our_team .columns-5 .team-member.last,
-.widget_woothemes_our_team .columns-6 .team-member.last {
-    margin-right: 0;
+.team-member:hover .team-member-overlay {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
 }
-.widget_woothemes_our_team .columns-2 .team-member {
-    width: 48%;
+.team-member:hover .team-member-image {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px);
 }
-.widget_woothemes_our_team .columns-3 .team-member {
-    width: 30.75%;
+.item-overlay-center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
-.widget_woothemes_our_team .columns-4 .team-member {
-    width: 22.05%;
+.item-overlay-center h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 24px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
 }
-.widget_woothemes_our_team .columns-5 .team-member {
-    width: 16.9%;
+.item-overlay-center p {
+    font-size: 0.875rem;
+    margin-bottom: 40px !important;
 }
-.widget_woothemes_our_team .columns-6 .team-member {
-    width: 13.5%;
+.team-social-icon {
+    display: inline-block;
+    margin: 0 0 6px 0 !important;
+}
+.team-social-icon li {
+    padding: 0 9px;
+}
+.team-social-icon li a {
+    opacity: 0.25;
+    font-size: 18px;
+    color: #fff;
+
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+.team-social-icon li a:hover {
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
 }

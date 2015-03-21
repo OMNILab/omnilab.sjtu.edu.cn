@@ -22,6 +22,19 @@ function unhook_accesspress_bxslidercb() {
 }
 
 /**
+ * Shorten a multibyte string by specific length.
+ */
+function shortenText($text, $maxlength = 70, $appendix = "...")
+{
+    if (mb_strlen($text) <= $maxlength) {
+        return $text;
+    }
+    $text = mb_substr($text, 0, $maxlength - mb_strlen($appendix));
+    $text .= $appendix;
+    return $text;
+}
+
+/**
  * Hook a new bxSlider callback
  */
 // add_action('accesspress_bxslider','my_accesspress_bxslidercb', 10);
