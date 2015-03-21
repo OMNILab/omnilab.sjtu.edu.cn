@@ -19,7 +19,10 @@ your requirements:
 
     $ cp wp-config-sample.php wp-config.php
 
+
 ### Post-Installation
+
+* Activate the OmniParallax theme modified for our own site style.
 
 * Allocate FrontPage and Home page in `Settings -> Reading -> FrontPageDisplay`.
 
