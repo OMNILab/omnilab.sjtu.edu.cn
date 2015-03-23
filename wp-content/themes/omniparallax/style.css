@@ -144,6 +144,7 @@ ul.team-members {
 /*---------------------------------------------------------------------------------*/
 /*  Modified blog CSS of accesspress-parallax
 /*---------------------------------------------------------------------------------*/
+
 .blog-list{
     height: 550px;
     border-bottom: 3px solid #E66432;
@@ -166,4 +167,17 @@ ul.team-members {
 }
 .blog-list:hover span{
     background: #333;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*  Modified footer CSS
+/*---------------------------------------------------------------------------------*/
+.footer-block .widget_text {
+    font-size: 1.2rem;
+}
+.copyright, .social-icon {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 30px;
 }
