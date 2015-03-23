@@ -2,13 +2,13 @@
     <div class="overlay"></div>
     <div class="mid-content">
         <div class="call-to-action">
-            <h1><?php _e( 'For News and Updates Subscribe us', 'accesspress_parallax' ); ?></h1>
+            <h1><?php echo 'For News and Updates'; ?></h1>
             <div class="parallax-content">
                 <div class="page-content">
-                    <p><?php _e( 'Here can be some text as well', 'accesspress_parallax' ); ?></p>
-                    <p><a class="btn" href="feed"><?php _e( 'Subscribe Us', 'accesspress_parallax' ); ?></a></p>
+                    <p style="text-align: center;"><?php echo "Some content will be great" ?></p>
+                    <p><a class="btn" href="?feed=rss2"><?php echo 'Subscribe Us'; ?></a></p>
                 </div>
             </div>
-        </div><!-- #primary -->
+        </div>
     </div>
 </section>

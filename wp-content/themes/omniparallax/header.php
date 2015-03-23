@@ -35,8 +35,7 @@
                     <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
                     <h2 class="site-description"><?php bloginfo('description'); ?></h2>
                 <?php endif; ?>
-            </div>
-            <!-- #sitelogo -->
+            </div><!-- #sitelogo -->
 
             <nav id="site-navigation" class="main-navigation">
                 <div class="menu-toggle"><?php _e('Menu', 'accesspress_parallax'); ?></div>
@@ -70,8 +69,7 @@
                     ));
                 endif; ?>
 
-            </nav>
-            <!-- #site-navigation -->
+            </nav><!-- #site-navigation -->
         </div>
 
 
@@ -79,8 +77,7 @@
         if (of_get_option('show_social') == 1):
             do_action('accesspress_social');
         endif; ?>
-    </header>
-    <!-- #masthead -->
+    </header><!-- #masthead -->
 
     <?php
     $accesspress_show_slider = of_get_option('show_slider');
@@ -92,9 +89,8 @@
     <div id="content" class="site-content <?php echo $content_class; ?>">
         <?php
         // show slider in front page merely
-        if (is_front_page()) :
+        if ( is_front_page()) :
             do_action('accesspress_bxslider');
         endif;
         ?>
     </div>
-</body>

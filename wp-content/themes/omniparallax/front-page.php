@@ -18,7 +18,6 @@ if (!empty($sections)):
         $image = $section['image'];
         $layout = $section['layout'];
         $category = $section['category'];
-        $googlemapclass = $layout == "googlemap_template" ? " google-map" : "";
         ?>
 
         <?php if (!empty($section['page'])): ?>
@@ -98,13 +97,13 @@ if (!empty($sections)):
     <?php endif; ?>
     <?php endforeach; ?>
 <?php else:
-    get_template_part("sections/introduction");
+    get_template_part("sections/features");
     get_template_part("sections/topics");
     get_template_part("sections/team");
     get_template_part("sections/blank");
     get_template_part("sections/blog");
     get_template_part("sections/feed");
-    get_template_part("sections/contact");
+//    get_template_part("sections/contact");
 endif; ?>
 </div>
 
@@ -125,7 +124,5 @@ endif; ?>
     #for-news-and-updates-subscribe-us{ background:url() no-repeat fixed top left #F6F6F6; background-size:cover; color:#333}
     #contact{ background:url(<?php echo get_template_directory_uri(); ?>/images/demo/bg4.jpg) no-repeat scroll top left ; background-size:cover; color:#FFF}
     #contact .overlay { background:url(<?php echo get_template_directory_uri(); ?>/images/overlay3.png);}
-    #google-map{ background:url() no-repeat scroll top left ; background-size:auto; color:}
-    #google-map .overlay { background:url(<?php echo get_template_directory_uri(); ?>/images/overlay0.png);}
     #content{margin:0 !important}
 </style>

@@ -20,7 +20,6 @@
                         <h4 class="posted-date"><i class="fa fa-calendar"></i><?php the_date() ?></h4>
                         <?php
                         // Aligning blogs with different lengths
-                        $blog_length_forced = 8 * 10;
                         $blog_display = strip_tags($post->post_content);
                         echo u8_substr_equal_width($blog_display, 200); ?>
                     </div>

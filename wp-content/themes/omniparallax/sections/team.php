@@ -2,6 +2,9 @@
     <div class="mid-content">
         <h1><span>Team</span></h1>
         <div class="parallax-content">
+            <div class="page-content">
+                <p style="text-align: center;"><?php echo "An awesome team" ?></p>
+            </div>
         </div>
         <ul class="team-members">
             <?php $user_query = get_team_members(); ?>

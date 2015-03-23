@@ -20,11 +20,16 @@ your requirements:
     $ cp wp-config-sample.php wp-config.php
 
 
-### Post-Installation
+### First Configuration
 
 * Activate the OmniParallax theme modified for our own site style.
 
+* Active "Team Member" plugin.
+
 * Allocate FrontPage and Home page in `Settings -> Reading -> FrontPageDisplay`.
+
+* Configure the permalinks as "Day and name", which is really important when migrating data
+from history server.
 
 ## Migration Issues and solutions
 
