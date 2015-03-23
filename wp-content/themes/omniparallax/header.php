@@ -14,8 +14,7 @@
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://www.bootcss.com/p/simple-icons/css/screen.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
     <![endif]-->
@@ -33,8 +32,7 @@
                         <img src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>">
                     </a>
                 <?php else: ?>
-                    <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                              rel="home"><?php bloginfo('name'); ?></a></h1>
+                    <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
                     <h2 class="site-description"><?php bloginfo('description'); ?></h2>
                 <?php endif; ?>
             </div>

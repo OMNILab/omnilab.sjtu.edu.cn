@@ -4,55 +4,43 @@
         <div class="parallax-content">
         </div>
         <ul class="team-members">
-            <?php
-            $filter = array(
-                'limit' 					=> 10,
-                'per_row' 					=> null,
-                'orderby' 					=> 'menu_order',
-                'order' 					=> 'DESC',
-                'id' 						=> 0,
-                'slug'						=> null,
-                'display_author' 			=> true,
-                'display_additional' 		=> true,
-                'display_avatar' 			=> true,
-                'display_url' 				=> true,
-                'display_twitter' 			=> true,
-                'display_author_archive'	=> true,
-                'display_role'	 			=> true,
-                'contact_email'				=> true,
-                'tel'						=> true,
-                'effect' 					=> 'fade', // Options: 'fade', 'none'
-                'pagination' 				=> false,
-                'echo' 						=> false,
-                'size' 						=> 285,
-                'title' 					=> '',
-                'category' 					=> 0
-            );
-
-            $user_query = woothemes_get_our_team($filter);
-            // print_r($user_query);
-            ?>
+            <?php $user_query = get_team_members(); ?>
             <?php if ( ! is_wp_error( $user_query ) && is_array( $user_query ) && ! empty( $user_query )): ?>
                 <?php foreach ($user_query as $user):
+                    // print_r($user); // for debugging
                     $user_name = $user->post_title;
                     $user_bio = strip_tags($user->post_content);
-                    $user_image = $user->image;
+                    // Extract image URL; return default if not available
+                    $user_image = get_stylesheet_directory_uri() . "/images/omnilab/default-user-male.png";
+                    if (array_key_exists("image", $user)) {
+                        $res = Array();
+                        if (preg_match('/src=[\"\']([^\"\']+)[\"\']/', $user->image, $res) ){
+                            if ( count($res) > 0 ){
+                                $user_image = $res[1];
+                            }
+                        }
+                    }
                     ?>
 
                     <li class="">
                         <div class="team-member">
                             <div class="team-member-image">
-                                <?php echo $user_image; ?>
+                                <img alt="<?php echo $user_name; ?>", src="<?php echo $user_image; ?>">
                             </div>
                             <div class="team-member-overlay">
-                                <h2><?php echo $user_name; ?></h2>
-                                <p><?php echo $user_bio; ?></p>
-                                <ul class="team-social-icon">
-                                    <li>
-                                        <a title="twitter" href="https://twitter.com/xiamingc"></a>
-                                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                                    </li>
-                                </ul>
+                                <div class="item-overlay-center">
+                                    <h2><?php echo $user_name; ?></h2>
+                                    <p><?php echo extract_sentences($user_bio, 2); ?></p>
+                                    <ul class="team-social-icon">
+                                        <?php if ( array_key_exists("twitter", $user) && $user->twitter != "" ):?>
+                                            <li>
+                                                <a title="twitter" href="https://twitter.com/<?php echo $user->twitter; ?>">
+                                                    <i class="fa fa-twitter fa-2x"></i>
+                                                </a>
+                                            </li>
+                                        <?php endif ?>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </li>
