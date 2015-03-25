@@ -102,7 +102,7 @@
     <div class="bottom-footer">
         <div class="mid-content clearfix">
             <div class="copyright">
-                <p><?php echo "Copyright &copy " . date('Y') . "  Open Metanexus Laboratory"; ?></p>
+                <p><?php echo "Copyright &copy " . date('Y') . "  Open Metanexus Innovation Laboratory"; ?></p>
             </div>
             <!-- .copy-right -->
         </div>

@@ -78,7 +78,7 @@
         if (of_get_option('show_social') == 1):
             do_action('accesspress_social');
         endif; ?>
-    </header><!-- #masthead -->
+    </header><!-- #mase5sthead -->
 
     <?php
     $accesspress_show_slider = of_get_option('show_slider');

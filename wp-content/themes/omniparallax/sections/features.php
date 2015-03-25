@@ -3,77 +3,82 @@
         <h1><span>What You Can Learn</span></h1>
         <div class="parallax-content">
             <div class="page-content">
-                <p style="text-align: center;"><?php _e('Curabitur eget interdum risus. Curabitur dictum, libero ut mattis consequat, lectus mauris congue risus, et volutpat nulla eros vel arcu.','accesspress_parallax'); ?></p>
+                <p style="text-align: center;"><?php
+                    echo "Working together with passionate people to face state-of-the-art
+                    technologies and to solve realistic and challengeable problems." ?></p>
             </div>
         </div>
         <div class="service-listing clearfix">
             <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="0.25s">
                 <div class="service-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/demo/icon1.png" alt="EASY THEME OPTION PANEL">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-big-data.png" alt="MASSIVE DATA">
                 </div>
                 <div class="service-detail">
-                    <h3>EASY THEME OPTION PANEL</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MASSIVE DATA</h3>
+                    <div class="service-content"><p><?php
+                            echo "Process the overwhelming data with Hadoop and Spark.
+                            Batch and streaming jobs are supported in a unified system." ?></p>
                     </div>
                 </div>
             </div>
             <div class="clearfix service-list even wow fadeInRight" data-wow-delay="0.5s">
                 <div class="service-image">
-                    <img src="<?php
-                    echo get_template_directory_uri();
-                    ?>/images/demo/icon2.png" alt="EASY CUSTOMIZABLE">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-ml.png" alt="MING TECHNIQUES">
                 </div>
                 <div class="service-detail">
-                    <h3>EASY CUSTOMIZABLE</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MING TECHNIQUES</h3>
+                    <div class="service-content"><p><?php
+                            echo "Employ visualization and Machine Learning
+                            technologies to uncover gold from realistic data mine."; ?></p>
                     </div>
                 </div>
             </div>
             <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="0.75s">
                 <div class="service-image">
-                    <img src="<?php
-                    echo get_template_directory_uri();
-                    ?>/images/demo/icon3.png" alt="CLEAN CODING">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-monitor.png" alt="MEASUREMENT">
                 </div>
                 <div class="service-detail">
-                    <h3>CLEAN CODING</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MEASUREMENT</h3>
+                    <div class="service-content"><p><?php
+                            echo "Ever wanted to know how the computer network works? Use data-drive analysis
+                            to inspect the dark side of our cyber space." ?></p>
                     </div>
                 </div>
             </div>
             <div class="clearfix service-list even wow fadeInRight" data-wow-delay="1s">
                 <div class="service-image">
-                    <img src="<?php
-                    echo get_template_directory_uri();
-                    ?>/images/demo/icon4.png" alt="HTML5 &#038; CSS3">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-mobile.png" alt="MOBILITY INSPECTION">
                 </div>
                 <div class="service-detail">
-                    <h3>HTML5 &#038; CSS3</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MOBILITY OF HUMAN</h3>
+                    <div class="service-content"><p><?php
+                            echo "Inspect the interesting patterns and universal laws of human behaviour
+                            in large-scale wireless networks." ?></p>
                     </div>
                 </div>
             </div>
             <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="1.25s">
                 <div class="service-image">
-                    <img src="<?php
-                    echo get_template_directory_uri();
-                    ?>/images/demo/icon5.png" alt="7X24 SUPPORT">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-iot.png" alt="MACHINE NETWORKS">
                 </div>
                 <div class="service-detail">
-                    <h3>7X24 SUPPORT</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MACHINE NETWORKS</h3>
+                    <div class="service-content"><p><?php
+                            echo "Heard about Internet of Things? The next opp comes from the connect
+                            of every machines and generated data mountains."; ?></p>
                     </div>
                 </div>
             </div>
             <div class="clearfix service-list even wow fadeInRight" data-wow-delay="1.5s">
                 <div class="service-image">
-                    <img src="<?php
-                    echo get_template_directory_uri();
-                    ?>/images/demo/icon6.png" alt="MULTIPURPOSE">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-team.png"
+                         alt="MOTIVATED MAKERS">
                 </div>
                 <div class="service-detail">
-                    <h3>MULTIPURPOSE</h3>
-                    <div class="service-content"><p><?php _e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.', 'accesspress_parallax' ); ?></p>
+                    <h3>MOTIVATED MAKERS</h3>
+                    <div class="service-content"><p><?php
+                            echo "Come to join a team of aspiring and enthusiastic makers to understand,
+                            to create, and to better our world."; ?></p>
                     </div>
                 </div>
             </div>
