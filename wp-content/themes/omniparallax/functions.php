@@ -16,8 +16,9 @@ function theme_enqueue_styles() {
 /**
  * Hook a new bxSlider callback
  */
-//remove_action('accesspress_bxslider','accesspress_bxslidercb', 1);
-//add_action('accesspress_bxslider','my_accesspress_bxslidercb', 10);
+
+// remove_action('accesspress_bxslider','accesspress_bxslidercb', 1);
+// 此函数在原主题中没有add accesspress-parallax/inc/accesspress-functions.php
 function my_accesspress_bxslidercb(){
     global $post;
     $accesspress_parallax = of_get_option('parallax_section');
@@ -141,6 +142,10 @@ function my_accesspress_bxslidercb(){
     <?php endif; ?>
 <?php
 }
+
+add_action('accesspress_bxslider','my_accesspress_bxslidercb', 10);
+
+
 
 /**
  * Get team members from WooThemes My Team plugin

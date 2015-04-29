@@ -213,7 +213,7 @@ function accesspress_bxslidercb(){
 <?php
 }
 
-add_action('accesspress_bxslider','accesspress_bxslidercb', 10);
+// add_action('accesspress_bxslider','accesspress_bxslidercb', 10);
 
 
 //add class for parallax
