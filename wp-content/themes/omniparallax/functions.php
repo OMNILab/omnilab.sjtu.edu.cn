@@ -5,6 +5,58 @@
  * @package omniparallax
  */
 
+// add fields
+add_filter( 'woothemes_our_team_member_fields', 'woothemes_our_team_my_new_fields' );
+function woothemes_our_team_my_new_fields( $fields ) {
+    $fields['github'] = array(
+        'name' => __( 'Github', 'woothemes-our-team' ),
+        'description' => __( 'Github Address', 'woothemes-our-team' ),
+        'type' => 'text',
+        'default' => '',
+        'section' => 'info'
+    );
+    $fields['google'] = array(
+        'name' => __( 'Google+', 'woothemes-our-team' ),
+        'description' => __( 'Google+', 'woothemes-our-team' ),
+        'type' => 'text',
+        'default' => '',
+        'section' => 'info'
+    );
+    $fields['website'] = array(
+        'name' => __( 'Website', 'woothemes-our-team' ),
+        'description' => __( 'Personal Website Address', 'woothemes-our-team' ),
+        'type' => 'text',
+        'default' => '',
+        'section' => 'info'
+    );
+    $fields['weibo'] = array(
+        'name' => __( 'Weibo', 'woothemes-our-team' ),
+        'description' => __( 'Sina Weibo', 'woothemes-our-team' ),
+        'type' => 'text',
+        'default' => '',
+        'section' => 'info'
+    );
+    $fields['wechat'] = array(
+        'name' => __( 'Wechat', 'woothemes-our-team' ),
+        'description' => __( 'wechat account', 'woothemes-our-team' ),
+        'type' => 'text',
+        'default' => '',
+        'section' => 'info'
+    );
+    
+    return $fields;
+}
+
+// display the contents of that field on the frontend 
+// add_filter( 'woothemes_our_team_member_fields_display', 'woothemes_our_team_my_new_fields_display' );
+// function woothemes_our_team_my_new_fields_display( $member_fields ) {
+//     global $post;
+//     if ( '' != $post->misc ) {
+//         $member_fields .= '<li class="misc">' . $post->misc . '</li><!--/.misc-->' . "\n";
+//     }
+//     return $member_fields;
+// }
+
 /**
  * Enqueue the parent and child theme stylesheets.
  */
@@ -17,7 +69,7 @@ function theme_enqueue_styles() {
  * Hook a new bxSlider callback
  */
 
-// remove_action('accesspress_bxslider','accesspress_bxslidercb', 1);
+// remove_action('accesspress_bxslider','accesspress_bxslidercb', 10);
 // 此函数在原主题中没有add accesspress-parallax/inc/accesspress-functions.php
 function my_accesspress_bxslidercb(){
     global $post;

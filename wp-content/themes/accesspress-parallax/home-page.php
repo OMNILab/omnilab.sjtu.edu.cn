@@ -17,7 +17,7 @@ get_header();
 		$image = $section['image'];
 		$layout = $section['layout'];
 		$category = $section['category']; 
-		$googlemapclass = $layout == "googlemap_template" ? " google-map" : "";
+		// $googlemapclass = $layout == "googlemap_template" ? " google-map" : "";
 	?>
 
 	<?php if(!empty($section['page'])): ?>
@@ -73,9 +73,9 @@ get_header();
 								$template = "layouts/blank";
 								break;
 
-							case 'googlemap_template':
-								$template = "layouts/googlemap";
-								break;
+							// case 'googlemap_template':
+							// 	$template = "layouts/googlemap";
+							// 	break;
 
 							case 'blog_template':
 								$template = "layouts/blog";

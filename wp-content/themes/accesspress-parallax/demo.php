@@ -413,7 +413,7 @@
             </div><!-- #primary -->
         </div>
     </section>
-    <section class="parallax-section clearfix google-map googlemap_template" id="google-map">
+  <!--   <section class="parallax-section clearfix google-map googlemap_template" id="google-map">
         <div class="content-area googlemap-section">
             <script type="text/javascript">
                 var map;
@@ -435,7 +435,7 @@
             <div class="googlemap-content">
                 <div id="ap-map-canvas"></div>
             </div>
-    </section>
+    </section> -->
 </div>
 
 <style type='text/css' media='all'>#features{ background:url() no-repeat scroll top left #f6f6f6; background-size:cover; color:#333333}
