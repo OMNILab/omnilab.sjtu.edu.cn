@@ -315,3 +315,19 @@ function u8_substr_equal_width($str, $width = 0, $end = '...', $x3 = 0) {
 
     return implode('', array_slice($arr, 0, $i) ). $e;
 }
+
+/**
+ * Plugin Name: WPDX Replace Open Sans
+ * Plugin URI:  http://www.wpdaxue.com/dw-replace-open-sans.html
+ * Description: Change the load address of Open Sans.
+ * Author:      Changmeng Hu
+ * Author URI:  http://www.wpdaxue.com/
+ * Version:     1.0
+ * License:     GPL
+ */
+function wpdx_replace_open_sans() {
+  wp_deregister_style('open-sans');
+  wp_register_style( 'open-sans', '//fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600' );
+  if(is_admin()) wp_enqueue_style( 'open-sans');
+}
+add_action( 'init', 'wpdx_replace_open_sans' );
