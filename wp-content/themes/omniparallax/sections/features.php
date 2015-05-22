@@ -26,7 +26,7 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/omnilab/icon-ml.png" alt="MING TECHNIQUES">
                 </div>
                 <div class="service-detail">
-                    <h3>MING TECHNIQUES</h3>
+                    <h3>MINING TECHNIQUES</h3>
                     <div class="service-content"><p><?php
                             echo "Employ visualization and Machine Learning
                             technologies to uncover gold from realistic data mine."; ?></p>
