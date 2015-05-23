@@ -181,3 +181,12 @@ ul.team-members {
     line-height: 1.5em;
     margin-bottom: 30px;
 }
+
+/* Modified by Honlan */
+#content {
+    padding: none;
+    margin: none;
+}
+
+#primary {
+}
