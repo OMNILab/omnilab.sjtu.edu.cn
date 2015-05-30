@@ -33,8 +33,9 @@ your requirements:
   FrontPageDisplay`.
 
 * Configure the permalinks as "Day and name" for a friendly reading
-  style. (**NOTE:** You have to enable the `rewrite_module` in apache2 and add
-  "AllowOverride All" in `httpd.conf`)
+  style.
+(**NOTE:** You have to enable the `rewrite_module` in apache2 and add
+  "AllowOverride All" in `httpd.conf`. See: [How to enable rewrite_mod](http://xmodulo.com/how-to-enable-mod_rewrite-in-apache2-on-debian-ubuntu.html))
 
 ## Migration Issues and solutions
 
