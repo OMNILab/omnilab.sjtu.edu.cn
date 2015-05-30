@@ -7,12 +7,12 @@ Main site of OMNILab at Shanghai Jiao Tong University.
 * MySQL >= 5.0
 * PHP >= 5.5
 
-## Deployment
+## Install
 
 1. Install basic Web utilities including Web server, PHP, MySQL etc.
 2. Clone this code repository into local web root folder, e.g.,
 
-        $ git clone --recursive git@github.com:OMNILab/omnilab.sjtu.edu.cn.git /www/omnilab
+        $ git clone --recursive git@github.com:OMNILab/omnilab.sjtu.edu.cn.git omnilab
 
 3. Create new WordPress configuration file and change database settings for
 your requirements:
@@ -22,14 +22,19 @@ your requirements:
 
 ### First Configuration
 
-* Activate the OmniParallax theme modified for our own site style.
+* Activate the `OmniParallax` theme modified for our own site style.
 
-* Active "Team Member" plugin.
+* Active `Team Member` plugin.
 
-* Allocate FrontPage and Home page in `Settings -> Reading -> FrontPageDisplay`.
+* Create our pages: Frontpage, Team, Researches, Publications, Blogs, About
+  etc.
 
-* Configure the permalinks as "Day and name", which is really important when migrating data
-from history server.
+* Allocate the `Frontpage` and `Post` page in `Settings -> Reading ->
+  FrontPageDisplay`.
+
+* Configure the permalinks as "Day and name" for a friendly reading
+  style. (**NOTE:** You have to enable the `rewrite_module` in apache2 and add
+  "AllowOverride All" in `httpd.conf`)
 
 ## Migration Issues and solutions
 
