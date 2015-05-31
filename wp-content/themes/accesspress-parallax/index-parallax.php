@@ -40,7 +40,7 @@
 					<div class="parallax-content">
 					<?php if($page->post_content != "") : ?>
 						<div class="page-content">
-						<?php echo wpautop(do_shortcode($page->post_content)); ?>
+						<?php the_content(); ?>
 						</div>
 					<?php endif; ?>
 					</div> 

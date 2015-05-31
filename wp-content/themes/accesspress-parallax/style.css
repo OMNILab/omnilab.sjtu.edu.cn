@@ -4,9 +4,9 @@ Theme URI: http://accesspressthemes.com/wordpress-themes/accesspress-parallax/
 Author: AccessPress Themes
 Author URI: http://accesspressthemes.com/
 Description: AccessPress Parallax is a beautiful WordPress theme with Parallax design. Parallax design has become popular and is being adopted because 3D effects are possible with it, you can add some sphere to your product, it is the best way of storytelling, you can draw your visitors in, it is interactive, engaging, makes your visitors curious, fun, surprise, effective to trigger action, invite your visitors in great Call to Action, great conversion rates and many more. This is probably the most beautiful, feature rich and complete free WordPress parallax theme with features like: fully responsive, advance theme option panel, featured slider, advance post settings, services/team/blog/portfolio/testimonial layout, Google map integration, custom logo/fav icon, call to action, CSS animation, SEO friendly, translation ready, RTL support, custom CSS/JS and more! Demo: http://accesspressthemes.com/accesspress-parallax/ Support forum:https://accesspressthemes.com/support/ Pro version:https://accesspressthemes.com/wordpress-themes/accesspress-parallax-pro/ 
-Version: 1.16
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.23.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: accesspress_parallax
 Domain Path: /languages/
 Tags: black, blue, custom-background, custom-colors, custom-header, custom-menu, dark, featured-images, fluid-layout, gray, light, one-column, orange, right-sidebar, theme-options, threaded-comments, translation-ready, two-columns, white
@@ -14,7 +14,7 @@ Tags: black, blue, custom-background, custom-colors, custom-header, custom-menu,
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Access Press Parallax is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+AccessPress Parallax is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 */
 
 /*--------------------------------------------------------------
@@ -481,19 +481,10 @@ Content
 	margin: 0 0 40px;
 }
 
-#content, .blog #content.no-slider, .blog.home #content.no-slider{
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-.logged-in #content > .mid-content{
+#content > .mid-content{
 	margin-top: 30px;
 }
-.parallax-on #content{
-	margin-bottom: 0;
-}
-.home #content, .blog #content, .home #content.no-slider, .logged-in #content{
-	margin-top: 0;
-}
+
 #primary{
 	width: 70%;
 	float: left;
@@ -952,6 +943,7 @@ body.parallax-on #masthead{
 	position: fixed;
 	left: 0;
 	top: 0;
+	right: 0;
 }
 body.logged-in.parallax-on #masthead{
 	top: auto;
@@ -1099,7 +1091,8 @@ Main SLider
 }
 
 .parallax-on #main-slider,
-#main-slider.full-screen-{
+#main-slider.full-screen-,
+.page-template-home-page-php #main-slider{
 	margin-bottom: 0;
 }
 
@@ -1148,7 +1141,8 @@ Main SLider
 }
 
 .slider-caption .caption-description a, 
-.btn{
+.btn,
+.call-to-action a{
 	position: relative;
 	border: 2px solid #ffffff;
 	display: inline-block;
@@ -1459,6 +1453,7 @@ Team Section
 --------------------------------------------------------------*/
 .team-tab{
 	text-align: center;
+	padding: 0 50px;
 }
 .team-image{
 	width: 140px;
@@ -1554,8 +1549,9 @@ Google Map Section
 	max-width: none;
 }
 .google-map iframe{
-	width: 100%;
+	width: 100% !important;
 	display: block;
+	height: 400px !important;
 }
 .googlemap-toggle{
 	position: absolute;

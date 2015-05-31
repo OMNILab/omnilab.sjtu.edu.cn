@@ -36,6 +36,16 @@ Responsive CSS
 		text-indent: -9999px;
 		cursor: pointer;
 	}
+	.logo-top #site-logo{
+		float: left;
+	}
+	.logo-top .main-navigation{
+		float: right;
+	}
+
+	.logo-top .menu-toggle{
+		float: right;
+	}
 	.main-navigation{
 		text-align: center;
 	}
@@ -60,6 +70,10 @@ Responsive CSS
 	.main-navigation .current_page_item > a, 
 	.main-navigation .current-menu-item > a{
 		color: #CCC;
+	}
+	.slider-caption{
+		padding-left: 70px;
+		padding-right: 70px;
 	}
 }
 
@@ -159,6 +173,10 @@ Responsive CSS
 	.main-navigation ul ul{
 		box-shadow: none;
 	}
+	.parallax-section{
+        background-attachment: scroll !important;
+        background-repeat: repeat !important;
+    }
 }
 @media screen and (max-width: 480px){
 	.parallax-section h1{
@@ -217,10 +235,24 @@ Responsive CSS
 		margin: 0 0 15px !important;
 		float:none;
 	}
-	#site-logo{
+	#site-logo,
+	.logo-top #site-logo{
 		width: 80%;
+		text-align:left;
+	}
+	.main-navigation > ul{
+		max-height:320px 
+	}
+	.slider-caption{
+		display: none;
 	}
 	
+}
+
+@media screen and (max-width: 480px) and (orientation : landscape){
+	.main-navigation > ul{
+		max-height:220px 
+	}
 }
 
 @media screen and (min-width: 1001px){

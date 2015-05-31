@@ -89,6 +89,49 @@ Images
 ---------------------------------------------
 
 == Changelog ==
+Version 1.23.3
+* Compatibility issues with multilingual plugin (polylang) fixed.
+* Issue with Google Map Section fixed.
+* Removed the unused script from the demo content.
+
+Version 1.23
+* Main Navigation Bug fixed
+
+Version 1.22
+* Team section slides bug fixed
+* Background Image bug in Mobile device fixed
+
+Version 1.21
+* Main Navigation Bug fixed
+* Minor Changes in Theme Option Panel
+* New pot file generated for translation
+* Jquery bug fixed while adding multiple team section
+
+Version 1.20
+* Archive page Title link fixed
+* ScreenShot Changed
+* Few adjustment in Theme Option Panel
+* Added Theme support for title tag
+* Added callback for custom TinyMCE editor stylesheets
+
+Version 1.19
+* Navigation not clickalbe in innpages issue solved.
+* Minor CSS bugs fixed.
+* Text translation added.
+* New Options Added in Theme Options Panel
+* Option to change the home text added in menu
+
+Version 1.18
+* Nav unclickable issue solved.
+* Minor CSS bugs fixed.
+* Text translation added.
+* Remove emails from Theme Options due to spams. 
+
+Version 1.17
+* Fixed the link on the Scroll down arrow over the banner.
+* Added New Translation language (Russian).
+* Minor CSS bugs fixed.
+
 Version 1.16
 * Theme option value not saving bug fixed.
 

@@ -1,0 +1,301 @@
+/*
+ Theme Name:   ZBlackbeard
+ Description:  ZBlackbeard is a modern responsive Wordpress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio.
+ Author:       Themeisle
+ Author URI:   https://themeisle.com
+ Template:     zerif-lite
+ Version:      1.0.5
+ License:      GNU General Public License version 2
+ License URI:  license.txt
+ Text Domain:  zblackbeard
+ Tags:         black, gray, red, white, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+
+/*--------------------------------------------------------------
+General
+--------------------------------------------------------------*/
+.entry-content a {
+	color: #3bbbd2;
+}
+.entry-content a:visited {
+	color: #3bbbd2;
+}
+.entry-content a:hover {
+	color: #ea4747;
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.navbar {
+	background: rgba(51,67,70, 0.9) !important;
+}
+.navbar-inverse .navbar-nav ul.sub-menu {
+	background: rgba(51,67,70, 1) !important;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .main-navigation > ul > li > a {
+	color: #c0cdcf !important;
+}
+.focus {
+	background: #202728 !important;
+	color: #c0cdcf !important;
+}
+.focus h5 {
+	color: #FFF !important;
+}
+.focus h6 {
+	color: #c0cdcf !important;
+}
+.navbar-inverse .navbar-nav ul.sub-menu li a {
+	color: #c0cdcf !important;
+}
+.navbar-inverse .navbar-nav ul.sub-menu li:hover > a {
+	color: #3bbbd2 !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #3bbbd2 !important;
+}
+.nav li a.nav-active {
+	color: #3bbbd2 !important;
+}
+.nav li a.nav-active:before {
+	background: #3bbbd2 !important;
+}
+.header {
+	min-height: 0;
+}
+.header {
+	background: rgba(51,67,70, 0.5) !important;
+}
+.intro-text {
+	color: #FFF !important;
+}
+
+/*--------------------------------------------------------------
+Content
+--------------------------------------------------------------*/
+.dark-text {
+	color: #3bbbd2 !important;
+}
+h2.white-text {
+	color: #3bbbd2 !important;
+}
+.works {
+	background: #f5f5f5 !important;
+}
+.about-us {
+	background: #202728 !important;
+	color: #c0cdcf !important;
+}
+.red-btn {
+	border-radius: 1px;
+    border-width: 2px;
+	border-style: solid;
+    border-color: #ea4747 !important;
+    position: relative;
+    background: rgba(234,71,71,0.4) !important;
+}
+.red-btn:hover {
+    border-width: 2px;
+	border-style: solid;
+    border-color: #ea4747;
+    background: rgba(234,71,71,1) !important;
+}
+.green-btn {
+	border-radius: 1px;
+    border-width: 2px;
+	border-style: solid;
+    border-color: #3bbbd2;
+    position: relative;
+    background: rgba(59,187,210,0.4) !important;
+}
+.green-btn:hover {
+    border-width: 2px;
+	border-style: solid;
+    border-color: #3bbbd2 !important;
+    background: rgba(59,187,210,1) !important;
+}
+.intro-text {
+	background: rgba(51,67,70,0.3) !important;
+	padding: 15px 0;
+}
+.testimonial {
+	background: #3bbbd2 !important;
+}
+.feedback-box .message {
+	color: #334346 !important;
+}
+.our-team {
+	background: #f5f5f5 !important;
+}
+.textarea-box {
+	border-radius: 0;
+}
+body{
+	background: #fdfdfd;
+}
+.entry-title:before {
+	content: "";
+	background: #ea4747 !important;
+}
+.entry-title a:hover{
+	color: #ea4747 !important;
+}
+.entry-title, 
+.entry-title a, 
+.widget-title, 
+.widget-title a {
+	color: #334346;
+}
+.widget .widget-title:before, .entry-title:before {
+	content: "";
+	background: #3bbbd2 !important;
+}
+body, button, input, select, textarea {
+	color: #334346 !important;
+}
+/* Selection colours (easy to forget) */
+::selection {
+	background: #3bbbd2 !important;
+	color: #FFF !important;
+}
+::-moz-selection {
+	background: #3bbbd2 !important;
+	color: #FFF !important;
+}
+.testimonial h2 {
+	color: #FFF !important;
+}
+#client-feedbacks .feedback-box {
+	border-radius: 1px;
+}
+.input-box {
+	border-radius: 1px;
+	background: rgba(255,255,255, 1) !important;
+}
+.textarea-box {
+	border-radius: 1px;
+	background: rgba(255,255,255, 1) !important;
+}
+.newsletter {
+	background: #ea4747 !important;
+}
+.separator-one {
+	background: rgba(59, 187, 210, 0.9) !important;
+}
+.separator-one .green-btn {
+	border-radius: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ea4747;
+	position: relative;
+	background: rgba(234,71,71,0.9) !important;
+}
+.separator-one .green-btn:hover {
+	background: rgba(234,71,71,1) !important;
+}
+.purchase-now {
+	background: rgba(234, 71, 71, 0.9) !important;
+}
+.purchase-now .red-btn {
+	float: right;
+	border-radius: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(51,67,70, 1) !important;
+	position: relative;
+	background: rgba(51,67,70, 0.8) !important;
+}
+.purchase-now .red-btn:hover {
+	background: rgba(51,67,70, 1) !important;
+}
+.latest-news h6 {
+	color: #334346 !important;
+}
+.focus-box .service-icon {
+	border: 10px solid rgba(255, 255, 255, 0.1) !important;
+}
+.red-border-bottom:before {
+	background: #ea4747 !important;
+}
+.about-us p {
+	color: #c0cdcf !important;
+}
+.about-us .big-intro {
+	color: #FFF !important;
+	font-size: 55px;
+}
+.latest-news {
+	background: #f5f5f5 !important;
+}
+#carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
+	content: "";
+	background: #ea4747 !important;
+}
+.copyright {
+	background: rgba(0,0,0,0.3) !important;
+}
+
+.comments-area input[type="text"],
+.comments-area input[type="email"],
+.comments-area input[type="url"],
+.comments-area textarea {
+	background: rgba(51,67,70, 0.8) !important;
+	color: #FFF !important;
+}
+.comment-form #submit,
+.comment-reply-link {
+	color: #fff !important;
+	border-radius: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ea4747;
+	position: relative;
+	background: rgba(234,71,71,0.8) !important;
+}
+.comment-form #submit:hover,
+.comment-reply-link:hover {
+	background: rgba(234,71,71,1) !important;
+}
+.widget_search input {
+	background: rgba(51,67,70, 0.8);
+	color: #FFF !important; 
+}
+.company-details {
+	color: #c0cdcf !important;
+}
+.zerif-copyright-box {
+	color: #c0cdcf !important;
+}
+.zerif-copyright {
+	color: #3bbbd2 !important;
+}
+.zerif-copyright:hover {
+	opacity: 0.8;
+}
+.our-team .row > div .red-border-bottom:before {
+	background: #ea4747 !important;
+}
+.team-member .social-icons ul li a {
+	background: none;
+}
+.team-member .social-icons ul li a:hover {
+	color: #3bbbd2 !important;
+}
+.social-icons .widget li:before {
+	content: '';
+	display: none;
+}
+.packages {
+	background: rgba(51, 67, 70, 1) !important;
+}
+
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+#footer {
+	background: #334346 !important;
+}

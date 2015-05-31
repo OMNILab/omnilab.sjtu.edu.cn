@@ -1,0 +1,643 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StrongHold\n"
+"POT-Creation-Date: 2015-04-17 17:13+0530\n"
+"PO-Revision-Date: 2015-04-17 17:13+0530\n"
+"Last-Translator: N. Venkat Raj <venkatraj.n@gmail.com>\n"
+"Language-Team: Webulous <venkat@webulous.in>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/stronghold/wp-content/themes/stronghold\n"
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-page.php:18
+msgid "Pages:"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-page.php:25
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:92
+msgid "Edit"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:53
+#: /var/www/stronghold/wp-content/themes/stronghold/header.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:88
+msgid "Sidebar"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:98
+msgid "Top Left"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:108
+msgid "Top Right"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:118
+#, php-format
+msgid "Footer %1$s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/functions.php:128
+msgid "Footer Nav"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-single.php:20
+#: /var/www/stronghold/wp-content/themes/stronghold/content.php:30
+msgid "Pages: "
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content.php:23
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:35
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:36
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:37
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/hooks-filters.php:4
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/hooks-filters.php:4
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/hooks-filters.php:6
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:9
+msgid "Page Builder"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:10
+msgid ""
+"StrongHold Pro supports Page Builder. All our shortcodes can be used as "
+"widgets too. You can drag and drop our widgets with page builder visual "
+"editor."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:11
+msgid "Page Layout"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:12
+msgid ""
+"StrongHold Pro offers many different page layouts so you can quickly and "
+"easily create your pages with various layout without any hassle!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:13
+msgid "Unlimited Sidebar"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:14
+msgid ""
+"Unlimited sidebars allows you to create multiple sidebars. Check out our "
+"demo site to see how different pages displays different sidebars!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:15
+msgid "Shortcode Builder"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:16
+msgid ""
+"With our shortcode builder and lots of shortcodes, you can easily create "
+"nested shortcodes and build custom pages!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:17
+msgid "Multi Portfolio"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:18
+msgid ""
+"7 portfolio layouts with Isotope filtering, 3 blog layouts and multiple "
+"other alternate layouts for interior pages!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:19
+msgid "Typography"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:20
+msgid ""
+"StrongHold Pro loves typography, you can choose from over 500+ Google Fonts "
+"and Standard Fonts to customize your site!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:21
+msgid "Awesome Sliders"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:22
+msgid ""
+"StrongHold Pro includes two types of slider. You can use both Flex and "
+"Elastic sliders anywhere in your site."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:23
+msgid "Woo Commerce"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:24
+msgid ""
+"StrongHold Pro has full design/code integration for WooCommerce, your shop "
+"will look as good as the rest of your site!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:25
+msgid "Custom Widget"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:26
+msgid ""
+"We offer many custom widgets that are stylized and ready for use. Simply "
+"drag &amp; drop into place to activate!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:27
+msgid "Advanced Admin"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:28
+msgid ""
+"Advanced Redux Framework for theme options panel, you can customize any part "
+"of your site quickly and easily!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:29
+msgid "Font Awesome"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:30
+msgid ""
+"Font Awesome icons are fully integrated into the theme. Use them anywhere in "
+"your site in 6 different sizes!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:31
+msgid "Responsive Layout"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:32
+msgid ""
+"StrongHold Pro is fully responsive and can adapt to any screen size. Resize "
+"your browser window to view it!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:33
+msgid "Testimonials"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:34
+msgid ""
+"With our testimonial post type, shortcode and widget, Displaying "
+"testimonials is a breeze."
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:35
+msgid "Social Media"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:36
+msgid ""
+"Want your users to stay in touch? No problem, StrongHold Pro has Social "
+"Media icons all throughout the theme!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:37
+msgid "Google Map"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:38
+msgid ""
+"StrongHold Pro includes Goole Map as shortcode and widget. So, you can use "
+"it anywhere in your site!"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:122
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:123
+msgid "StrongHold Options"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:130
+msgid "General"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:136
+msgid "Enable Breadcrumb Navigation"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:137
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:142
+msgid "Choose breadcrumb character"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:143
+msgid "Breadcrumb Character"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:149
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:210
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:235
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:317
+msgid ""
+"<p>Below theme options are available only in <span>StrongHold Pro</span> "
+"version. </p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:150
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:211
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:236
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:318
+msgid ""
+"<i class=\"fa fa-upload\"></i> <a href=\"http://www.webulousthemes.com/?add-"
+"to-cart=33\">Upgrade to Pro</a>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:155
+msgid "<p><span>Pro Option: </span> Enable Numeric Pagination.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:156
+msgid "Numeric Pagination"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:161
+msgid "<p><span>Pro Option: </span> Enable Mobile Navigation.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:162
+msgid "Mobile Navigation"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:167
+msgid "<p><span>Pro Option: </span> Main Layout. </p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:168
+msgid "Main Layout"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:173
+msgid "<p><span>Pro Option: </span> Custom Javascript.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:174
+msgid "Custom Javascript"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:179
+msgid "<p><span>Pro Option: </span> Custom CSS.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:180
+msgid "Custom CSS"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:186
+msgid "Header"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:192
+msgid "Logo as Title"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:193
+msgid "Enable to show logo as site title"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:198
+msgid "Upload Logo"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:199
+msgid "Upload logo to use instead of site title"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:204
+msgid "Show Site Description"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:205
+msgid "Show/Hide site description below site title using this option"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:216
+msgid ""
+"<p><span>Pro Option: </span> Set Favicon and touch icons for various mobile "
+"devices.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:217
+msgid "Favicon"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:223
+msgid "Footer"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:229
+msgid "Footer Widget Area"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:230
+msgid "Enable to use 4 columns footer widget area"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:241
+msgid "<p><span>Pro Option: </span> Set Copyright message.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:242
+msgid "Copyright"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:247
+msgid "<p><span>Pro Option: </span> Select menu to display in footer.</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:248
+msgid "Footer Menu"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:254
+msgid "Home"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:260
+msgid "Select a category to display as slider content"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:261
+msgid "Slider"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:266
+msgid "<p>Enter number of Sliders to display on Home Page</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:267
+msgid "No. of Sliders"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:273
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:279
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:285
+msgid "Select a page to display as service box"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:274
+msgid "Service #1"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:280
+msgid "Service #2"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:286
+msgid "Service #3"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:291
+msgid "<p>Enter number of recent posts to show on Home Page</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:292
+msgid "Number of Recent Posts"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:299
+msgid "Blog"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:305
+msgid "Featured Image"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:306
+msgid "Enable to show featured image on blog templates"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:311
+msgid "Single Featured Image"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:312
+msgid "Enable to show featured image on single blog posts"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:323
+msgid "Author Bio"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:324
+msgid ""
+"<p><span>Pro Option: </span> Enable to show Post Author Bio below single "
+"blog post</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:329
+msgid "Social Sharing"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:330
+msgid ""
+"<p><span>Pro Option: </span> Enable to show social sharing options below "
+"single blog post</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:335
+msgid "Related Posts"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:336
+msgid ""
+"<p><span>Pro Option: </span> Enable to show related posts below single blog "
+"post</p>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:342
+msgid "Support"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/options-config.php:349
+msgid "Why Upgrade"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:104
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:106
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:112
+#, php-format
+msgid "%1$s "
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:118
+msgid "Leave a comment"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:137
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:139
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:141
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:143
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:145
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:147
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:167
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:171
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:173
+msgid "Archives"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:281
+msgid "Latest Posts"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/template-tags.php:451
+msgid "Page"
+msgstr ""
+
+#: /var/www/stronghold/wp-content/themes/stronghold/includes/extras.php:64
+#, php-format
+msgid "Page %s"
+msgstr ""

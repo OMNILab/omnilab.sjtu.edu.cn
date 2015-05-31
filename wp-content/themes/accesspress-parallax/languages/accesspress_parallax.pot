@@ -1,268 +1,292 @@
+# Loco Gettext template
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AccessPress Parallax\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-30 16:28+0545\n"
-"PO-Revision-Date: 2014-12-30 16:30+0545\n"
+"POT-Revision-Date: Mon Apr 06 2015 12:22:33 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: AccessPress Themes <info@accesspressthemes.com>\n"
-"Language: en_US\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
-"X-Poedit-KeywordsList: _e;__\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ."
 
-#: 404.php:15
+#: ../404.php:15
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: archive.php:27
+#: ../archive.php:27
 #, php-format
 msgid "Author: %s"
 msgstr ""
 
-#: archive.php:30
+#: ../archive.php:30
 #, php-format
 msgid "Day: %s"
 msgstr ""
 
-#: archive.php:33
+#: ../archive.php:33
 #, php-format
 msgid "Month: %s"
 msgstr ""
 
-#: archive.php:36
+#: ../archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:36
 #, php-format
 msgid "Year: %s"
 msgstr ""
 
-#: archive.php:39
+#: ../archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:39
 msgid "Asides"
 msgstr ""
 
-#: archive.php:42
+#: ../archive.php:42
 msgid "Galleries"
 msgstr ""
 
-#: archive.php:45
+#: ../archive.php:45
 msgid "Images"
 msgstr ""
 
-#: archive.php:48
+#: ../archive.php:48
 msgid "Videos"
 msgstr ""
 
-#: archive.php:51
+#: ../archive.php:51
 msgid "Quotes"
 msgstr ""
 
-#: archive.php:54
+#: ../archive.php:54
 msgid "Links"
 msgstr ""
 
-#: archive.php:57
+#: ../archive.php:57
 msgid "Statuses"
 msgstr ""
 
-#: archive.php:60
+#: ../archive.php:60
 msgid "Audios"
 msgstr ""
 
-#: archive.php:63
+#: ../archive.php:63
 msgid "Chats"
 msgstr ""
 
-#: archive.php:66
+#: ../archive.php:66
 msgid "Archives"
 msgstr ""
 
-#: comments.php:35 comments.php:52
+#: ../comments.php:28
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35 ../comments.php:52
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:36 comments.php:53
+#: ../comments.php:36 ../comments.php:53
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: comments.php:37 comments.php:54
+#: ../comments.php:37 ../comments.php:54
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: comments.php:64
+#: ../comments.php:64
 msgid "Comments are closed."
 msgstr ""
 
-#: content-none.php:13
+#: ../content-none.php:13
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:19
+#: ../content-none.php:19
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: content-none.php:23
+#: ../content-none.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: content-none.php:28
+#: ../content-none.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 
-#: content-page.php:18 content-single.php:31 content.php:35
+#: ../content-page.php:18 ../content-single.php:31 ../content.php:35
 msgid "Pages:"
 msgstr ""
 
-#: content-page.php:24 content-search.php:53 content-single.php:73
+#: ../content-page.php:24 ../content-search.php:53 ../content-single.php:73
 msgid "Edit"
 msgstr ""
 
-#: content-search.php:30 content-search.php:40 content-single.php:41
-#: content-single.php:44 content.php:45 content.php:55
+#: ../content-search.php:30 ../content-search.php:40 ../content-single.php:41 ..
+#: /content-single.php:44 ../content.php:45 ../content.php:55
 msgid ", "
 msgstr ""
 
-#: content-search.php:34
+#: ../content-search.php:34
 #, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
-#: content-search.php:44
+#: ../content-search.php:44
 #, php-format
 msgid "Tagged %1$s"
 msgstr ""
 
-#: content-search.php:50
+#: ../content-search.php:50
 msgid "Leave a comment"
 msgstr ""
 
-#: content-search.php:50
+#: ../content-search.php:50
 msgid "1 Comment"
 msgstr ""
 
-#: content-search.php:50
+#: ../content-search.php:50
 msgid "% Comments"
 msgstr ""
 
-#: content-single.php:49
+#: ../content-single.php:49
 #, php-format
 msgid ""
-"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
-"\">permalink</a>."
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: content-single.php:51
+#: ../content-single.php:51
 #, php-format
 msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: content-single.php:57
+#: ../content-single.php:57
 #, php-format
 msgid ""
 "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
 "rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: content-single.php:59
+#: ../content-single.php:59
 #, php-format
 msgid ""
-"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
-"\">permalink</a>."
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
 msgstr ""
 
-#: content.php:32
+#: ../content.php:32
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: content.php:49
+#: ../content.php:49
 #, php-format
 msgid "<i class=\"fa fa-folder-open\"></i>Posted in %1$s"
 msgstr ""
 
-#: content.php:59
+#: ../content.php:59
 #, php-format
 msgid "<i class=\"fa fa-tags\"></i>Tagged %1$s"
 msgstr ""
 
-#: content.php:65
+#: ../content.php:65
 msgid "<i class=\"fa fa-comments\"></i>Leave a comment"
 msgstr ""
 
-#: content.php:65
+#: ../content.php:65
 msgid "<i class=\"fa fa-comments\"></i>1 Comment"
 msgstr ""
 
-#: content.php:65
+#: ../content.php:65
 msgid "<i class=\"fa fa-comments\"></i>% Comments"
 msgstr ""
 
-#: content.php:68
+#: ../content.php:68
 msgid "<i class=\"fa fa-pencil-square-o\"></i>Edit"
 msgstr ""
 
-#: demo.php:6
+#: ../demo.php:6
 msgid ""
 "Curabitur eget interdum risus. Curabitur dictum, libero ut mattis consequat, "
 "lectus mauris congue risus, et volutpat nulla eros vel arcu."
 msgstr ""
 
-#: demo.php:16 demo.php:28 demo.php:40 demo.php:52 demo.php:64 demo.php:76
-#: demo.php:89
+#: ../demo.php:16 ../demo.php:28 ../demo.php:40 ../demo.php:52 ../demo.php:64 ..
+#: /demo.php:76 ../demo.php:89
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus "
 "vitae ligula elementum ut luctus lorem facilisis."
 msgstr ""
 
-#: demo.php:98
+#: ../demo.php:98
 msgid "Product 11"
 msgstr ""
 
-#: demo.php:105
+#: ../demo.php:105
 msgid "Product 10"
 msgstr ""
 
-#: demo.php:112
+#: ../demo.php:112
 msgid "Product 9"
 msgstr ""
 
-#: demo.php:119
+#: ../demo.php:119
 msgid "Product 8"
 msgstr ""
 
-#: demo.php:126
+#: ../demo.php:126
 msgid "Product 7"
 msgstr ""
 
-#: demo.php:133
+#: ../demo.php:133
 msgid "Product 6"
 msgstr ""
 
-#: demo.php:140
+#: ../demo.php:140
 msgid "Product 5"
 msgstr ""
 
-#: demo.php:147
+#: ../demo.php:147
 msgid "Product 4"
 msgstr ""
 
-#: demo.php:191
+#: ../demo.php:191
 msgid "Russel Clinton"
 msgstr ""
 
-#: demo.php:192
+#: ../demo.php:192
 msgid "Interior Head"
 msgstr ""
 
-#: demo.php:193
+#: ../demo.php:193
 msgid ""
 "Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin "
 "quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam "
@@ -276,15 +300,15 @@ msgid ""
 "Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
 msgstr ""
 
-#: demo.php:202
+#: ../demo.php:202
 msgid "Bibo Aurther"
 msgstr ""
 
-#: demo.php:203
+#: ../demo.php:203
 msgid "CEO"
 msgstr ""
 
-#: demo.php:204
+#: ../demo.php:204
 msgid ""
 "Proin libero odio, ultrices et tincidunt vitae, consequat et sapien. Duis "
 "luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis "
@@ -300,15 +324,15 @@ msgid ""
 "Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
 msgstr ""
 
-#: demo.php:213
+#: ../demo.php:213
 msgid "Rusel Misil"
 msgstr ""
 
-#: demo.php:214
+#: ../demo.php:214
 msgid "Technician"
 msgstr ""
 
-#: demo.php:215
+#: ../demo.php:215
 msgid ""
 "Etiam vestibulum pellentesque nisi, ac scelerisque metus aliquam non. Proin "
 "tincidunt tortor auctor, accumsan arcu id, congue felis. Curabitur vitae "
@@ -322,15 +346,15 @@ msgid ""
 "Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
 msgstr ""
 
-#: demo.php:224
+#: ../demo.php:224
 msgid "Linda Harley"
 msgstr ""
 
-#: demo.php:225 demo.php:236
+#: ../demo.php:225 ../demo.php:236
 msgid "Staff"
 msgstr ""
 
-#: demo.php:226
+#: ../demo.php:226
 msgid ""
 "Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus "
 "vestibulum vestibulum mi quis posuere. Aenean pretium purus ut purus "
@@ -346,16 +370,16 @@ msgid ""
 "fringilla, elementum lacus eu, tincidunt purus."
 msgstr ""
 
-#: demo.php:235
+#: ../demo.php:235
 msgid "John Doe"
 msgstr ""
 
-#: demo.php:237
+#: ../demo.php:237
 msgid ""
 "Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc "
 "ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis "
-"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio "
-"posuere. Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere."
+" Ut scelerisque luctus arcu id tempus.<br/><br />\n"
 "                            Nulla facilisis sapien dui, vel faucibus risus "
 "consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean "
 "pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. "
@@ -364,15 +388,15 @@ msgid ""
 "fringilla, elementum lacus eu, tincidunt purus."
 msgstr ""
 
-#: demo.php:246
+#: ../demo.php:246
 msgid "Jakson Biber"
 msgstr ""
 
-#: demo.php:247
+#: ../demo.php:247
 msgid "Marketing Executive"
 msgstr ""
 
-#: demo.php:248
+#: ../demo.php:248
 msgid ""
 "Fusce imperdiet enim eget neque auctor, venenatis feugiat neque dapibus. "
 "Nulla consequat, nunc sed vestibulum semper, nibh velit pellentesque lectus, "
@@ -380,37 +404,37 @@ msgid ""
 "faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis "
 "posuere.<br/><br />\n"
 "                            Fusce imperdiet enim eget neque auctor, "
-"venenatis feugiat neque dapibus. Nulla consequat, nunc sed vestibulum "
-"semper, nibh velit pellentesque lectus, ac lobortis elit massa hendrerit "
-"lacus. Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. "
-"Phasellus vestibulum vestibulum mi quis posuere."
+"venenatis feugiat neque dapibus. Nulla consequat, nunc sed vestibulum semper,"
+" nibh velit pellentesque lectus, ac lobortis elit massa hendrerit lacus. "
+"Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus "
+"vestibulum vestibulum mi quis posuere."
 msgstr ""
 
-#: demo.php:257
+#: ../demo.php:257
 msgid "Jack Peterson"
 msgstr ""
 
-#: demo.php:258
+#: ../demo.php:258
 msgid "Sales Executive"
 msgstr ""
 
-#: demo.php:259
+#: ../demo.php:259
 msgid ""
 "Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc "
 "ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis "
-"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio "
-"posuere. Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere."
+" Ut scelerisque luctus arcu id tempus.<br/><br />\n"
 "                            Donec ut neque placerat, euismod enim et, "
 "sodales magna. Sed sit amet nunc ullamcorper, semper nunc mattis, "
 "scelerisque urna. Donec dictum mattis malesuada. Suspendisse vestibulum enim "
 "eu nisi auctor, a mollis odio posuere. Ut scelerisque luctus arcu id tempus."
 msgstr ""
 
-#: demo.php:275
+#: ../demo.php:275
 msgid "Testimonials"
 msgstr ""
 
-#: demo.php:281
+#: ../demo.php:281
 msgid ""
 "Thanks for delivering top quality services to your clients. It just takes a "
 "minute to get an answer from you when in difficulties. I use the chat "
@@ -419,289 +443,289 @@ msgid ""
 "experience with AccessPress Themes the best one online!"
 msgstr ""
 
-#: demo.php:283
+#: ../demo.php:283
 msgid "Yanetxys Torreblanca"
 msgstr ""
 
-#: demo.php:289
+#: ../demo.php:289
 msgid ""
 "Thank you very much the support team accesspress lite for service, are "
 "really wonderful in their care and in the resolution of the problem. "
 "Congratulations to facebook chat and Junu team."
 msgstr ""
 
-#: demo.php:291
+#: ../demo.php:291
 msgid "David Soriano"
 msgstr ""
 
-#: demo.php:297
+#: ../demo.php:297
 msgid ""
 "Great Customer service and technical assistance!!!<br />\n"
 "                                The template is really good and nice, "
 "definitely worth going PRO"
 msgstr ""
 
-#: demo.php:300
+#: ../demo.php:300
 msgid "Stefano Roganti"
 msgstr ""
 
-#: demo.php:315
+#: ../demo.php:315
 msgid "Read our latest blog"
 msgstr ""
 
-#: demo.php:324
+#: ../demo.php:324
 msgid "Nulla pretium leo ac congue"
 msgstr ""
 
-#: demo.php:325
+#: ../demo.php:325
 msgid "December 26, 2014"
 msgstr ""
 
-#: demo.php:326
+#: ../demo.php:326
 msgid ""
 "Nulla pretium leo ac congue molestie. Aliquam ac velit laoreet, consectetur "
 "elit pulvinar, elementum lorem. Duis sed venenatis eros. Vestibulum ante "
 "ipsum primis in faucibus orci luctus et ultrices po... "
 msgstr ""
 
-#: demo.php:327 demo.php:338 demo.php:349
+#: ../demo.php:327 ../demo.php:338 ../demo.php:349
 msgid "Read More"
 msgstr ""
 
-#: demo.php:335
+#: ../demo.php:335
 msgid "Pellentesque cursus dolor quis"
 msgstr ""
 
-#: demo.php:336 demo.php:347
+#: ../demo.php:336 ../demo.php:347
 msgid "September 9, 2014"
 msgstr ""
 
-#: demo.php:337
+#: ../demo.php:337
 msgid ""
 "Nullam faucibus mi at quam mattis egestas. Ut dapibus lectus at risus "
 "rhoncus finibus. Pellentesque sem risus, suscipit iaculis ex in, rutrum "
 "sodales enim. Vivamus non mauris tortor. Maecenas tellus n... "
 msgstr ""
 
-#: demo.php:346
+#: ../demo.php:346
 msgid "Lorem ipsum dolor"
 msgstr ""
 
-#: demo.php:348
+#: ../demo.php:348
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
 "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
 "quis nostrud exercitation ullamco laboris nisi ut ... "
 msgstr ""
 
-#: demo.php:354
+#: ../demo.php:354
 msgid "Read All"
 msgstr ""
 
-#: demo.php:362
+#: ../demo.php:362
 msgid "For News and Updates Subscribe us"
 msgstr ""
 
-#: demo.php:365
+#: ../demo.php:365
 msgid "Here can be some text as well"
 msgstr ""
 
-#: demo.php:366
+#: ../demo.php:366
 msgid "Subscribe Us"
 msgstr ""
 
-#: demo.php:400
+#: ../demo.php:400
 msgid "AccessPress Themes"
 msgstr ""
 
-#: demo.php:401
+#: ../demo.php:401
 msgid "5th Floor, Mathuri Sadan"
 msgstr ""
 
-#: demo.php:402
+#: ../demo.php:402
 msgid "Rabi Bhawan, Kathmandu - Nepal"
 msgstr ""
 
-#: demo.php:404 inc/accesspress-options.php:114
+#: ../demo.php:404
 msgid "General enquiries:"
 msgstr ""
 
-#: demo.php:405 inc/accesspress-options.php:115
+#: ../demo.php:405
 msgid "Support:"
 msgstr ""
 
-#: demo.php:407
+#: ../demo.php:407
 msgid "Skype: access-keys"
 msgstr ""
 
-#: footer.php:53
+#: ../footer.php:53
 msgid "AccessPress Parallax by"
 msgstr ""
 
-#: functions.php:49
+#: ../functions.php:63
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:84
+#: ../functions.php:98
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:94
+#: ../functions.php:108
 msgid "Footer One"
 msgstr ""
 
-#: functions.php:104
+#: ../functions.php:118
 msgid "Footer Two"
 msgstr ""
 
-#: functions.php:114
+#: ../functions.php:128
 msgid "Footer Three"
 msgstr ""
 
-#: functions.php:124
+#: ../functions.php:138
 msgid "Footer Four"
 msgstr ""
 
-#: header.php:40
+#: ../header.php:41
 msgid "Menu"
 msgstr ""
 
-#: search.php:16
+#: ../search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: inc/accesspress-functions.php:63
+#: ../inc/accesspress-functions.php:64
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: inc/accesspress-options.php:36
+#: ../inc/accesspress-options.php:32
 msgid "Fade"
 msgstr ""
 
-#: inc/accesspress-options.php:37
+#: ../inc/accesspress-options.php:33
 msgid "Slide Horizontal"
 msgstr ""
 
-#: inc/accesspress-options.php:38
+#: ../inc/accesspress-options.php:34
 msgid "Slide Vertical"
 msgstr ""
 
-#: inc/accesspress-options.php:42
-#: inc/options-framework/includes/class-options-sanitization.php:494
+#: ../inc/accesspress-options.php:38 ../inc/ajax.php:116 ../inc/options-
+#: framework/includes/class-options-sanitization.php:492
 msgid "Overlay 1"
 msgstr ""
 
-#: inc/accesspress-options.php:43
-#: inc/options-framework/includes/class-options-sanitization.php:495
+#: ../inc/accesspress-options.php:39 ../inc/ajax.php:117 ../inc/options-
+#: framework/includes/class-options-sanitization.php:493
 msgid "Overlay 2"
 msgstr ""
 
-#: inc/accesspress-options.php:44
-#: inc/options-framework/includes/class-options-sanitization.php:496
+#: ../inc/accesspress-options.php:40 ../inc/ajax.php:118 ../inc/options-
+#: framework/includes/class-options-sanitization.php:494
 msgid "Overlay 3"
 msgstr ""
 
-#: inc/accesspress-options.php:45
-#: inc/options-framework/includes/class-options-sanitization.php:497
+#: ../inc/accesspress-options.php:41 ../inc/ajax.php:119 ../inc/options-
+#: framework/includes/class-options-sanitization.php:495
 msgid "Overlay 4"
 msgstr ""
 
-#: inc/accesspress-options.php:49
-#: inc/options-framework/includes/class-options-sanitization.php:473
+#: ../inc/accesspress-options.php:45 ../inc/ajax.php:45 ../inc/options-
+#: framework/includes/class-options-sanitization.php:471
 msgid "Default Section"
 msgstr ""
 
-#: inc/accesspress-options.php:50
-#: inc/options-framework/includes/class-options-sanitization.php:474
+#: ../inc/accesspress-options.php:46 ../inc/ajax.php:46 ../inc/options-
+#: framework/includes/class-options-sanitization.php:472
 msgid "Service Section"
 msgstr ""
 
-#: inc/accesspress-options.php:51
-#: inc/options-framework/includes/class-options-sanitization.php:475
+#: ../inc/accesspress-options.php:47 ../inc/ajax.php:47 ../inc/options-
+#: framework/includes/class-options-sanitization.php:473
 msgid "Team Section"
 msgstr ""
 
-#: inc/accesspress-options.php:52
-#: inc/options-framework/includes/class-options-sanitization.php:476
+#: ../inc/accesspress-options.php:48 ../inc/ajax.php:48 ../inc/options-
+#: framework/includes/class-options-sanitization.php:474
 msgid "Portfolio Section"
 msgstr ""
 
-#: inc/accesspress-options.php:53
-#: inc/options-framework/includes/class-options-sanitization.php:477
+#: ../inc/accesspress-options.php:49 ../inc/ajax.php:49 ../inc/options-
+#: framework/includes/class-options-sanitization.php:475
 msgid "Testimonial Section"
 msgstr ""
 
-#: inc/accesspress-options.php:54
-#: inc/options-framework/includes/class-options-sanitization.php:478
+#: ../inc/accesspress-options.php:50 ../inc/ajax.php:50 ../inc/options-
+#: framework/includes/class-options-sanitization.php:476
 msgid "Blog Section"
 msgstr ""
 
-#: inc/accesspress-options.php:55
-#: inc/options-framework/includes/class-options-sanitization.php:479
+#: ../inc/accesspress-options.php:51 ../inc/ajax.php:51 ../inc/options-
+#: framework/includes/class-options-sanitization.php:477
 msgid "Call to Action Section"
 msgstr ""
 
-#: inc/accesspress-options.php:56
-#: inc/options-framework/includes/class-options-sanitization.php:480
+#: ../inc/accesspress-options.php:52 ../inc/ajax.php:52 ../inc/options-
+#: framework/includes/class-options-sanitization.php:478
 msgid "Google Map Section"
 msgstr ""
 
-#: inc/accesspress-options.php:57
-#: inc/options-framework/includes/class-options-sanitization.php:481
+#: ../inc/accesspress-options.php:53 ../inc/ajax.php:53 ../inc/options-
+#: framework/includes/class-options-sanitization.php:479
 msgid "Blank Section"
 msgstr ""
 
-#: inc/accesspress-options.php:61
+#: ../inc/accesspress-options.php:57
 msgid "Yes"
 msgstr ""
 
-#: inc/accesspress-options.php:62
+#: ../inc/accesspress-options.php:58
 msgid "No"
 msgstr ""
 
-#: inc/accesspress-options.php:66
+#: ../inc/accesspress-options.php:62
 msgid "One"
 msgstr ""
 
-#: inc/accesspress-options.php:67
+#: ../inc/accesspress-options.php:63
 msgid "Two"
 msgstr ""
 
-#: inc/accesspress-options.php:68
+#: ../inc/accesspress-options.php:64
 msgid "Three"
 msgstr ""
 
-#: inc/accesspress-options.php:69
+#: ../inc/accesspress-options.php:65
 msgid "Four"
 msgstr ""
 
-#: inc/accesspress-options.php:70
+#: ../inc/accesspress-options.php:66
 msgid "Five"
 msgstr ""
 
-#: inc/accesspress-options.php:75
+#: ../inc/accesspress-options.php:71
 msgid "French Toast"
 msgstr ""
 
-#: inc/accesspress-options.php:76
+#: ../inc/accesspress-options.php:72
 msgid "Pancake"
 msgstr ""
 
-#: inc/accesspress-options.php:77
+#: ../inc/accesspress-options.php:73
 msgid "Omelette"
 msgstr ""
 
-#: inc/accesspress-options.php:78
+#: ../inc/accesspress-options.php:74
 msgid "Crepe"
 msgstr ""
 
-#: inc/accesspress-options.php:79
+#: ../inc/accesspress-options.php:75
 msgid "Waffle"
 msgstr ""
 
-#: inc/accesspress-options.php:101
+#: ../inc/accesspress-options.php:97
 msgid ""
 "AccessPress Parallax is a beautiful WordPress theme with Parallax design. "
 "Parallax design has become popular and is being adopted because 3D effects "
@@ -711,391 +735,529 @@ msgid ""
 "action, invite your visitors in great Call to Action, great conversion rates "
 "and many more. This is probably the most beautiful, feature rich and "
 "complete free WordPress parallax theme with features like: fully responsive, "
-"advance theme option panel, featured slider, advance post settings, services/"
-"team/blog/portfolio/testimonial layout, Google map integration, custom logo/"
-"fav icon, call to action, CSS animation, SEO friendly, translation ready, "
-"RTL support, custom CSS/JS and more! "
+"advance theme option panel, featured slider, advance post settings, "
+"services/team/blog/portfolio/testimonial layout, Google map integration, "
+"custom logo/fav icon, call to action, CSS animation, SEO friendly, "
+"translation ready, RTL support, custom CSS/JS and more! "
 msgstr ""
 
-#: inc/accesspress-options.php:102
+#: ../inc/accesspress-options.php:98
 msgid "- A WordPress Division of Access Keys."
 msgstr ""
 
-#: inc/accesspress-options.php:106
+#: ../inc/accesspress-options.php:102
 msgid "Other products by AccessPressThemes"
 msgstr ""
 
-#: inc/accesspress-options.php:107
+#: ../inc/accesspress-options.php:103
 msgid "Our Themes - "
 msgstr ""
 
-#: inc/accesspress-options.php:108
+#: ../inc/accesspress-options.php:104
 msgid "Our Plugins - "
 msgstr ""
 
-#: inc/accesspress-options.php:112
+#: ../inc/accesspress-options.php:108
 msgid "Get in touch"
 msgstr ""
 
-#: inc/accesspress-options.php:113
-msgid "If you have any question/feedback, please get in touch:"
+#: ../inc/accesspress-options.php:109
+msgid "If you have any question/feedback regarding theme, please post in our forum"
 msgstr ""
 
-#: inc/accesspress-options.php:116
-msgid "Sales:"
+#: ../inc/accesspress-options.php:110
+msgid "Forum:"
 msgstr ""
 
-#: inc/accesspress-options.php:120
+#: ../inc/accesspress-options.php:111
+msgid "For Queries Regading Pro Themes:"
+msgstr ""
+
+#: ../inc/accesspress-options.php:116
 msgid "Get social"
 msgstr ""
 
-#: inc/accesspress-options.php:122
+#: ../inc/accesspress-options.php:118
 msgid ""
 "Get connected with us on social media. Facebook is the best place to find "
 "updates on our themes/plugins:"
 msgstr ""
 
-#: inc/accesspress-options.php:124
+#: ../inc/accesspress-options.php:120
 msgid "Like us on facebook:"
 msgstr ""
 
-#: inc/accesspress-options.php:158
+#: ../inc/accesspress-options.php:154
 msgid "General Settings"
 msgstr ""
 
-#: inc/accesspress-options.php:162
-msgid "Enable Parallax"
+#: ../inc/accesspress-options.php:158
+msgid ""
+"Enable Single Page Parallax Home Page - if disabled, will show Blog-"
+"roll/Static-page"
 msgstr ""
 
-#: inc/accesspress-options.php:163 inc/accesspress-options.php:170
-#: inc/accesspress-options.php:177 inc/accesspress-options.php:250
-#: inc/accesspress-options.php:257 inc/accesspress-options.php:264
-#: inc/accesspress-options.php:271 inc/accesspress-options.php:356
+#: ../inc/accesspress-options.php:159 ../inc/accesspress-options.php:166 ..
+#: /inc/accesspress-options.php:180 ../inc/accesspress-options.php:187 ..
+#: /inc/accesspress-options.php:264 ../inc/accesspress-options.php:271 ..
+#: /inc/accesspress-options.php:278 ../inc/accesspress-options.php:285 ..
+#: /inc/accesspress-options.php:377
 msgid "Check To enable"
 msgstr ""
 
-#: inc/accesspress-options.php:169
-msgid "Enable Animation"
+#: ../inc/accesspress-options.php:165
+msgid "Enable Single Page Nav(Menu) - if disabled, will show primary menu"
 msgstr ""
 
-#: inc/accesspress-options.php:176
+#: ../inc/accesspress-options.php:172
+msgid "Home Menu Text - Single Page Nav(Menu)"
+msgstr ""
+
+#: ../inc/accesspress-options.php:179
+msgid ""
+"Enable Animation on scroll - Page Elements will show with some animation "
+"only in home page."
+msgstr ""
+
+#: ../inc/accesspress-options.php:186
 msgid "Enable Responsive"
 msgstr ""
 
-#: inc/accesspress-options.php:184
+#: ../inc/accesspress-options.php:194
 msgid "Upload Logo"
 msgstr ""
 
-#: inc/accesspress-options.php:185
-#: inc/options-framework/includes/class-options-media-uploader.php:66
-#: inc/options-framework/includes/class-options-media-uploader.php:119
+#: ../inc/accesspress-options.php:195 ../inc/ajax.php:70 ../inc/options-
+#: framework/includes/class-options-media-uploader.php:66 ../inc/options-
+#: framework/includes/class-options-media-uploader.php:119
 msgid "Upload"
 msgstr ""
 
-#: inc/accesspress-options.php:189
+#: ../inc/accesspress-options.php:199
 msgid "Upload Fav Icon"
 msgstr ""
 
-#: inc/accesspress-options.php:205
+#: ../inc/accesspress-options.php:205
+msgid "Select Header Layout"
+msgstr ""
+
+#: ../inc/accesspress-options.php:215
 msgid "Google Map"
 msgstr ""
 
-#: inc/accesspress-options.php:206
+#: ../inc/accesspress-options.php:216
 #, php-format
 msgid ""
-"To get Values of Latitude and Longitude by Location name, click on <a href="
-"\"%s\">http://www.latlong.net</a>"
+"To get Values of Latitude and Longitude by Location name, click on <a "
+"href=\"%s\">http://www.latlong.net</a>"
 msgstr ""
 
-#: inc/accesspress-options.php:211
+#: ../inc/accesspress-options.php:221
 msgid "Enter the latitude"
 msgstr ""
 
-#: inc/accesspress-options.php:218
+#: ../inc/accesspress-options.php:228
 msgid "Enter the longitude"
 msgstr ""
 
-#: inc/accesspress-options.php:225
-msgid "Parallax Settings"
+#: ../inc/accesspress-options.php:235
+msgid "Parallax Sections"
 msgstr ""
 
-#: inc/accesspress-options.php:245
+#: ../inc/accesspress-options.php:239
+msgid ""
+"<strong>Note: Please make a new page before you create a section. Each "
+"Section should have unique Page.</strong>"
+msgstr ""
+
+#: ../inc/accesspress-options.php:259
 msgid "Post Settings"
 msgstr ""
 
-#: inc/accesspress-options.php:249
+#: ../inc/accesspress-options.php:263
 msgid "Show Posted Date"
 msgstr ""
 
-#: inc/accesspress-options.php:256
+#: ../inc/accesspress-options.php:270
 msgid "Show Post Author"
 msgstr ""
 
-#: inc/accesspress-options.php:263
+#: ../inc/accesspress-options.php:277
 msgid "Show Post Footer text"
 msgstr ""
 
-#: inc/accesspress-options.php:270
+#: ../inc/accesspress-options.php:284
 msgid "Show Prev Next Pagination"
 msgstr ""
 
-#: inc/accesspress-options.php:278
+#: ../inc/accesspress-options.php:292
 msgid "Slider Settings"
 msgstr ""
 
-#: inc/accesspress-options.php:282
+#: ../inc/accesspress-options.php:296
 msgid "Show Slider"
 msgstr ""
 
-#: inc/accesspress-options.php:290
+#: ../inc/accesspress-options.php:304
 msgid "Select a Category"
 msgstr ""
 
-#: inc/accesspress-options.php:297
+#: ../inc/accesspress-options.php:311
 msgid "Show full window"
 msgstr ""
 
-#: inc/accesspress-options.php:304
+#: ../inc/accesspress-options.php:318
+msgid "Remove Slider overlay - Black Dots"
+msgstr ""
+
+#: ../inc/accesspress-options.php:325
 msgid "Show Pager"
 msgstr ""
 
-#: inc/accesspress-options.php:311
+#: ../inc/accesspress-options.php:332
 msgid "Show Controls"
 msgstr ""
 
-#: inc/accesspress-options.php:318
+#: ../inc/accesspress-options.php:339
 msgid "Auto Transition"
 msgstr ""
 
-#: inc/accesspress-options.php:325
+#: ../inc/accesspress-options.php:346
 msgid "Slider Transition"
 msgstr ""
 
-#: inc/accesspress-options.php:332
+#: ../inc/accesspress-options.php:353
 msgid "Slider Transition Speed"
 msgstr ""
 
-#: inc/accesspress-options.php:338
+#: ../inc/accesspress-options.php:359
 msgid "Slider Pause Duration"
 msgstr ""
 
-#: inc/accesspress-options.php:344
+#: ../inc/accesspress-options.php:365
 msgid "Show Caption"
 msgstr ""
 
-#: inc/accesspress-options.php:351
+#: ../inc/accesspress-options.php:372
 msgid "Social Links"
 msgstr ""
 
-#: inc/accesspress-options.php:355
+#: ../inc/accesspress-options.php:376
 msgid "Show Social Icon"
 msgstr ""
 
-#: inc/accesspress-options.php:362
+#: ../inc/accesspress-options.php:383
 msgid "Facebook"
 msgstr ""
 
-#: inc/accesspress-options.php:367
+#: ../inc/accesspress-options.php:388
 msgid "Twitter"
 msgstr ""
 
-#: inc/accesspress-options.php:372
+#: ../inc/accesspress-options.php:393
 msgid "Google Plus"
 msgstr ""
 
-#: inc/accesspress-options.php:377
+#: ../inc/accesspress-options.php:398
 msgid "Youtube"
 msgstr ""
 
-#: inc/accesspress-options.php:382
+#: ../inc/accesspress-options.php:403
 msgid "Pinterest"
 msgstr ""
 
-#: inc/accesspress-options.php:387
+#: ../inc/accesspress-options.php:408
 msgid "Linkedin"
 msgstr ""
 
-#: inc/accesspress-options.php:392
+#: ../inc/accesspress-options.php:413
 msgid "Fickr"
 msgstr ""
 
-#: inc/accesspress-options.php:397
+#: ../inc/accesspress-options.php:418
 msgid "Vimeo"
 msgstr ""
 
-#: inc/accesspress-options.php:402
+#: ../inc/accesspress-options.php:423
 msgid "Instagram"
 msgstr ""
 
-#: inc/accesspress-options.php:407
+#: ../inc/accesspress-options.php:428
 msgid "Skype"
 msgstr ""
 
-#: inc/accesspress-options.php:412
+#: ../inc/accesspress-options.php:433
 msgid "Tools"
 msgstr ""
 
-#: inc/accesspress-options.php:416
+#: ../inc/accesspress-options.php:437
 msgid "Custom CSS"
 msgstr ""
 
-#: inc/accesspress-options.php:422
+#: ../inc/accesspress-options.php:443
 msgid "Custom JS"
 msgstr ""
 
-#: inc/accesspress-options.php:428
+#: ../inc/accesspress-options.php:449
 msgid "About"
 msgstr ""
 
-#: inc/accesspress-options.php:432
+#: ../inc/accesspress-options.php:453
 msgid "About AccessPress Themes"
 msgstr ""
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
+#: ../inc/ajax.php:19
+msgid "Page Title:"
 msgstr ""
 
-#: inc/template-tags.php:25
-msgid "<i class=\"fa fa-hand-o-left\"></i> Older Posts"
+#: ../inc/ajax.php:23 ../inc/options-framework/includes/class-options-interface.
+#: php:430
+msgid "Page"
 msgstr ""
 
-#: inc/template-tags.php:29
-msgid "Newer Posts <i class=\"fa fa-hand-o-right\"></i>"
+#: ../inc/ajax.php:25
+msgid "Select a page:"
 msgstr ""
 
-#: inc/template-tags.php:52
-msgid "Post navigation"
+#: ../inc/ajax.php:33 ../inc/options-framework/includes/class-options-interface.
+#: php:446
+msgid "Font Color"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:77
-msgid "Theme Options"
+#: ../inc/ajax.php:38 ../inc/options-framework/includes/class-options-interface.
+#: php:457
+msgid "Background Color"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:176
-msgid "Follow us for new updates"
+#: ../inc/ajax.php:43 ../inc/options-framework/includes/class-options-interface.
+#: php:463
+msgid "Layout"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:201
-msgid "Click OK to reset. Any theme settings will be lost!"
+#: ../inc/ajax.php:58 ../inc/options-framework/includes/class-options-interface.
+#: php:475
+msgid "Category"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:233
-msgid "Like our Facebook page and don't miss any updates!"
+#: ../inc/ajax.php:60
+msgid "Select a Category:"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:261
-msgid "Default options restored."
+#: ../inc/ajax.php:68
+msgid "Background Image"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-framework-admin.php:315
-msgid "Options saved."
+#: ../inc/ajax.php:76 ../inc/options-framework/includes/class-options-interface.
+#: php:499
+msgid "Background Settings"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-media-uploader.php:63
-msgid "No file chosen"
-msgstr ""
-
-#: inc/options-framework/includes/class-options-media-uploader.php:68
-#: inc/options-framework/includes/class-options-media-uploader.php:120
-msgid "Remove"
-msgstr ""
-
-#: inc/options-framework/includes/class-options-media-uploader.php:71
-msgid "Upgrade your version of WordPress for full media support."
-msgstr ""
-
-#: inc/options-framework/includes/class-options-media-uploader.php:95
-msgid "View File"
-msgstr ""
-
-#: inc/options-framework/includes/class-options-sanitization.php:410
+#: ../inc/ajax.php:81 ../inc/options-framework/includes/class-options-
+#: sanitization.php:408
 msgid "No Repeat"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:411
+#: ../inc/ajax.php:82 ../inc/options-framework/includes/class-options-
+#: sanitization.php:409
 msgid "Repeat Horizontally"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:412
+#: ../inc/ajax.php:83 ../inc/options-framework/includes/class-options-
+#: sanitization.php:410
 msgid "Repeat Vertically"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:413
+#: ../inc/ajax.php:84 ../inc/options-framework/includes/class-options-
+#: sanitization.php:411
 msgid "Repeat All"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:425
+#: ../inc/ajax.php:88 ../inc/options-framework/includes/class-options-
+#: sanitization.php:423
 msgid "Top Left"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:426
+#: ../inc/ajax.php:89 ../inc/options-framework/includes/class-options-
+#: sanitization.php:424
 msgid "Top Center"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:427
+#: ../inc/ajax.php:90 ../inc/options-framework/includes/class-options-
+#: sanitization.php:425
 msgid "Top Right"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:428
+#: ../inc/ajax.php:91 ../inc/options-framework/includes/class-options-
+#: sanitization.php:426
 msgid "Middle Left"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:429
+#: ../inc/ajax.php:92 ../inc/options-framework/includes/class-options-
+#: sanitization.php:427
 msgid "Middle Center"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:430
+#: ../inc/ajax.php:93 ../inc/options-framework/includes/class-options-
+#: sanitization.php:428
 msgid "Middle Right"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:431
+#: ../inc/ajax.php:94 ../inc/options-framework/includes/class-options-
+#: sanitization.php:429
 msgid "Bottom Left"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:432
+#: ../inc/ajax.php:95 ../inc/options-framework/includes/class-options-
+#: sanitization.php:430
 msgid "Bottom Center"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:433
+#: ../inc/ajax.php:96 ../inc/options-framework/includes/class-options-
+#: sanitization.php:431
 msgid "Bottom Right"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:445
+#: ../inc/ajax.php:100 ../inc/options-framework/includes/class-options-
+#: sanitization.php:443
 msgid "Scroll Normally"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:446
+#: ../inc/ajax.php:101 ../inc/options-framework/includes/class-options-
+#: sanitization.php:444
 msgid "Fixed in Place"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:458
+#: ../inc/ajax.php:105 ../inc/options-framework/includes/class-options-
+#: sanitization.php:456
 msgid "Auto"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:459
+#: ../inc/ajax.php:106 ../inc/options-framework/includes/class-options-
+#: sanitization.php:457
 msgid "Cover"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:460
+#: ../inc/ajax.php:107 ../inc/options-framework/includes/class-options-
+#: sanitization.php:458
 msgid "Contain"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:493
+#: ../inc/ajax.php:113 ../inc/options-framework/includes/class-options-interface.
+#: php:542
+msgid "Overlay"
+msgstr ""
+
+#: ../inc/ajax.php:115 ../inc/options-framework/includes/class-options-
+#: sanitization.php:491
 msgid "No Overlay"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:569
+#: ../inc/ajax.php:123 ../inc/options-framework/includes/class-options-interface.
+#: php:553 ../inc/options-framework/includes/class-options-media-uploader.php:68 .
+#: ./inc/options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: ../inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:25
+msgid "<i class=\"fa fa-hand-o-left\"></i> Older Posts"
+msgstr ""
+
+#: ../inc/template-tags.php:29
+msgid "Newer Posts <i class=\"fa fa-hand-o-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-hand-o-left\"></i>%title"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title<i class=\"fa fa-hand-o-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:85
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:172
+msgid "AccessPress Lite"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:176
+msgid "Follow us for new updates"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:200
+msgid "Save Options"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:201
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:201
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:233
+msgid "Like our Facebook page and don't miss any updates!"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:261
+msgid "Default options restored."
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:315
+msgid "Options saved."
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-interface.php:426
+msgid "Page Title: "
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-interface.php:563
+msgid "Add New Section"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-sanitization.php:567
 msgid "Normal"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:570
+#: ../inc/options-framework/includes/class-options-sanitization.php:568
 msgid "Italic"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:571
+#: ../inc/options-framework/includes/class-options-sanitization.php:569
 msgid "Bold"
 msgstr ""
 
-#: inc/options-framework/includes/class-options-sanitization.php:572
+#: ../inc/options-framework/includes/class-options-sanitization.php:570
 msgid "Bold Italic"
 msgstr ""

@@ -17,7 +17,7 @@ get_header();
 		$image = $section['image'];
 		$layout = $section['layout'];
 		$category = $section['category']; 
-		// $googlemapclass = $layout == "googlemap_template" ? " google-map" : "";
+		$googlemapclass = $layout == "googlemap_template" ? " google-map" : "";
 	?>
 
 	<?php if(!empty($section['page'])): ?>
@@ -37,7 +37,7 @@ get_header();
 					<div class="parallax-content">
 					<?php if($page->post_content != "") : ?>
 						<div class="page-content">
-						<?php echo wpautop(do_shortcode($page->post_content)); ?>
+						<?php the_content(); ?>
 						</div>
 					<?php endif; ?>
 					</div> 
@@ -73,9 +73,9 @@ get_header();
 								$template = "layouts/blank";
 								break;
 
-							// case 'googlemap_template':
-							// 	$template = "layouts/googlemap";
-							// 	break;
+							case 'googlemap_template':
+								$template = "layouts/googlemap";
+								break;
 
 							case 'blog_template':
 								$template = "layouts/blog";

@@ -1,0 +1,52 @@
+.wrap p .view-demo, .wrap p .upgrade {
+  float: right;
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  border: 5px solid #e4e2e2;
+  border-radius: 3px;
+  font-weight: bold; }
+  .wrap p .view-demo i, .wrap p .upgrade i {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    display: inline-block;
+    line-height: 25px; }
+.wrap p .view-demo {
+  background-color: #cecbcb;
+  color: black; }
+  .wrap p .view-demo i {
+    background-color: #aca8a8;
+    color: black; }
+  .wrap p .view-demo:hover {
+    background-color: #aca8a8; }
+.wrap p .upgrade {
+  background-color: #f05151;
+  color: white; }
+  .wrap p .upgrade i {
+    background-color: #d53f3f;
+    font-size: 1.2em; }
+  .wrap p .upgrade:hover {
+    background-color: #d53f3f; }
+.wrap .one-third.column {
+  border: 2px solid #d7d7d7;
+  float: left;
+  box-shadow: 5px 5px 0 #d7d7d7;
+  margin: 30px;
+  width: 23%;
+  padding: 20px;
+  background-color: white;
+  text-align: center; }
+  .wrap .one-third.column h3 {
+    font-size: 1.5em;
+    border: none; }
+  .wrap .one-third.column p {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: left; }
+  .wrap .one-third.column .fa {
+    font-size: 50px;
+    color: #00c1cf; }
+
+/*# sourceMappingURL=admin.css.map */

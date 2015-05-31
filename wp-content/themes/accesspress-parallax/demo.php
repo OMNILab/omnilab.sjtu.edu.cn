@@ -413,29 +413,13 @@
             </div><!-- #primary -->
         </div>
     </section>
-  <!--   <section class="parallax-section clearfix google-map googlemap_template" id="google-map">
+    <section class="parallax-section clearfix google-map googlemap_template" id="google-map">
         <div class="content-area googlemap-section">
-            <script type="text/javascript">
-                var map;
-                function initialize() {
-                    var mapOptions = {
-                        zoom: 18,
-                        center: new google.maps.LatLng(27.695401, 85.291604),
-                        mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        scrollwheel: false,
-                        mapTypeControlOptions: {
-                            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-                        },
-                    };
-                    map = new google.maps.Map(document.getElementById('ap-map-canvas'),
-                            mapOptions);
-                }
-            </script>
             <div class="googlemap-toggle">Map</div>
             <div class="googlemap-content">
-                <div id="ap-map-canvas"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31397712412!2d85.3261328!3d27.708960349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu+44600%2C+Nepal!5e0!3m2!1sen!2s!4v1431407463100" width="600" height="450" frameborder="0" style="border:0"></iframe>
             </div>
-    </section> -->
+    </section>
 </div>
 
 <style type='text/css' media='all'>#features{ background:url() no-repeat scroll top left #f6f6f6; background-size:cover; color:#333333}

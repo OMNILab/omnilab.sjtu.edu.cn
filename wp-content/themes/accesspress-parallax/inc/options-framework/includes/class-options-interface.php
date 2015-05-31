@@ -419,15 +419,15 @@ class Options_Framework_Interface {
 
 				$parallaxsection_array = array();
 
-				if(is_array($settings['parallax_section'])) {
+				if(!empty($settings['parallax_section'])) {
 				foreach ($settings['parallax_section'] as $i => $ival) { 
 				$parallaxsection_array[] = $i;
 				$background = $val;
-				$output .='<div class="sub-option clearifx"><h3 class="title">Page Title: <span></span><div class="section-toggle"><i class="fa fa-chevron-down"></i>
+				$output .='<div class="sub-option clearifx"><h3 class="title">'.__('Page Title: ' ,'accesspress_parallax').'<span></span><div class="section-toggle"><i class="fa fa-chevron-down"></i>
 </div></h3>';
 				$output .='<div class="sub-option-inner" style="display:none">';
 				$output .='<div class="inline-label">';
-				$output .='<label>Page</label>';
+				$output .='<label>'.__('Page','accesspress_parallax').'</label>';
 				$output .= '<select class="of-input '.esc_attr( $value['id'] . '_page' ).'" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][page]' ) . '">';
 
 				foreach ($value['options'] as $key => $option ) {
@@ -443,8 +443,8 @@ class Options_Framework_Interface {
 						$default_color = ' data-default-color="' .$value['std']['font_color'] . '" ';
 				}
 				$output .='<div class="color-picker inline-label">';
-				$output .='<label class="">Font Color</label>';
-				$output .= '<input name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][font_color]' ) . '" id="' . esc_attr( $value['id'] . '_font_color' ) . '" class="of-color of-background-color"  type="text" value="' . esc_attr( $background[$i]['font_color'] ) . '"' . $default_color .' />';
+				$output .='<label class="">'.__('Font Color','accesspress_parallax').'</label>';
+				$output .= '<input name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][font_color]' ) . '" class="of-color of-background-color"  type="text" value="' . esc_attr( $background[$i]['font_color'] ) . '"' . $default_color .' />';
 				$output .='</div>';
 
 				// Background Color
@@ -454,14 +454,14 @@ class Options_Framework_Interface {
 						$default_color = ' data-default-color="' .$value['std']['color'] . '" ';
 				}
 				$output .='<div class="color-picker inline-label">';
-				$output .='<label class="">Background Color</label>';
-				$output .= '<input name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][color]' ) . '" id="' . esc_attr( $value['id'] . '_color' ) . '" class="of-color of-background-color"  type="text" value="' . esc_attr( $background[$i]['color'] ) . '"' . $default_color .' />';
+				$output .='<label>'.__('Background Color','accesspress_parallax').'</label>';
+				$output .= '<input name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][color]' ) . '" class="of-color of-background-color"  type="text" value="' . esc_attr( $background[$i]['color'] ) . '"' . $default_color .' />';
 				$output .='</div>';
 
 				// Section Layout
 				$output .='<div class="inline-label">';
-				$output .='<label class="">Layout</label>';
-				$output .= '<select class="of-section of-section-layout" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][layout]' ) . '" id="' . esc_attr( $value['id'] . '_layout' ) . '">';
+				$output .='<label>'.__('Layout','accesspress_parallax').'</label>';
+				$output .= '<select class="of-section of-section-layout" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][layout]' ) . '">';
 				$layouts = of_recognized_layout();
 
 				foreach ($layouts as $key => $layout) {
@@ -470,9 +470,10 @@ class Options_Framework_Interface {
 				$output .= '</select>';
 				$output .='</div>';
 
-				$output .='<div class="inline-label">';
-				$output .='<label class="">Category</label>';
-				$output .= '<select class="of-input" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][category]' ) . '" id="' . esc_attr( $value['id'] . '_category' ) . '">';
+				// Section Category
+				$output .='<div class="inline-label toggle-category">';
+				$output .='<label>'.__('Category','accesspress_parallax').'</label>';
+				$output .= '<select class="of-input of-section-category" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][category]' ) . '">';
 
 				foreach ($value['category'] as $key => $category ) {
 					$output .= '<option'. selected( $background[$i]['category'], $key, false ) .' value="' . esc_attr( $key ) . '">' . esc_html( $category ) . '</option>';
@@ -486,7 +487,7 @@ class Options_Framework_Interface {
 				}
 
 				$output .='<div class="inline-label">';
-				$output .='<label class="">Background Image</label>';
+				$output .='<label class="">'.__('Background Image','accesspress_parallax').'</label>';
 				$output .= Options_Framework_Media_Uploader::optionsframework_uploader( $value['id'], $background[$i]['image'], null, esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][image]' ) );
 				$output .='</div>';
 
@@ -495,12 +496,12 @@ class Options_Framework_Interface {
 					$class .= ' hide';
 				}
 				$output .= '<div class="inline-label ' . esc_attr( $class ) . '">';
-				$output .= '<label class="">Background Settings</label>';
+				$output .= '<label>'.__('Background Settings','accesspress_parallax').'</label>';
 
 				// Background Repeat
 				$output .= '<div class="background-settings">';
 				$output .= '<div class="clearfix">';
-				$output .= '<select class="of-background of-background-repeat" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][repeat]'  ) . '" id="' . esc_attr( $value['id'] . '_repeat' ) . '">';
+				$output .= '<select class="of-background of-background-repeat" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][repeat]'  ) . '">';
 				$repeats = of_recognized_background_repeat();
 
 				foreach ($repeats as $key => $repeat) {
@@ -509,7 +510,7 @@ class Options_Framework_Interface {
 				$output .= '</select>';
 
 				// Background Position
-				$output .= '<select class="of-background of-background-position" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][position]' ) . '" id="' . esc_attr( $value['id'] . '_position' ) . '">';
+				$output .= '<select class="of-background of-background-position" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][position]' ) . '">';
 				$positions = of_recognized_background_position();
 
 				foreach ($positions as $key=>$position) {
@@ -518,7 +519,7 @@ class Options_Framework_Interface {
 				$output .= '</select>';
 
 				// Background Attachment
-				$output .= '<select class="of-background of-background-attachment" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][attachment]' ) . '" id="' . esc_attr( $value['id'] . '_attachment' ) . '">';
+				$output .= '<select class="of-background of-background-attachment" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][attachment]' ) . '">';
 				$attachments = of_recognized_background_attachment();
 
 				foreach ($attachments as $key => $attachment) {
@@ -527,7 +528,7 @@ class Options_Framework_Interface {
 				$output .= '</select>';
 
 				// Background Size
-				$output .= '<select class="of-background of-background-size" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][size]' ) . '" id="' . esc_attr( $value['id'] . '_size' ) . '">';
+				$output .= '<select class="of-background of-background-size" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][size]' ) . '">';
 				$sizes = of_recognized_background_size();
 
 				foreach ($sizes as $key => $size) {
@@ -538,8 +539,8 @@ class Options_Framework_Interface {
 
 				// Background Overlay
 				$output .='<div class="color-picker inline-label">';
-				$output .='<label class="">Overlay</label>';
-				$output .= '<select class="of-background of-background-overlay" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][overlay]' ) . '" id="' . esc_attr( $value['id'] . '_overlay' ) . '">';
+				$output .='<label>'.__('Overlay','accesspress_parallax').'</label>';
+				$output .= '<select class="of-background of-background-overlay" name="' . esc_attr( $option_name . '[' . $value['id'] . ']['.$i.'][overlay]' ) . '">';
 				$overlays = of_recognized_background_overlay();
 
 				foreach ($overlays as $key => $overlay) {
@@ -549,7 +550,7 @@ class Options_Framework_Interface {
 				$output .= '</div>';
 
 				$output .= '</div>';
-				$output .= '<div class="button-primary remove-parallax">Remove</div></div>';
+				$output .= '<div class="button-primary remove-parallax">'.__('Remove','accesspress_parallax').'</div></div>';
 				$output .= '</div>';
 				}
 			}
@@ -559,7 +560,7 @@ class Options_Framework_Interface {
 
 				// Button
 				case "button":
-				$output .= '<a id="' . esc_attr( $value['id'] ) . '" class="button-primary" href="javascript:void(0);">Add New Section</a>'."\n";
+				$output .= '<a id="' . esc_attr( $value['id'] ) . '" class="button-primary" href="javascript:void(0);">'.__('Add New Section','accesspress_parallax').'</a>'."\n";
 				break;
 			}
 

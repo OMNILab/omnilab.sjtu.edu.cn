@@ -13,7 +13,7 @@
 		<div class="parallax-content">
 			<?php if($page->post_content != "") : ?>
 			<div class="page-content">
-				<?php echo wpautop($page->post_content); ?>
+				<?php echo do_shortcode(wpautop($page->post_content)); ?>
 			</div>
 			<?php endif; ?>
 		</div>

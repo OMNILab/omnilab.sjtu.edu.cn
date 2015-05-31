@@ -1,0 +1,1279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessPress Parallax\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-30 16:28+0545\n"
+"PO-Revision-Date: Mon Apr 06 2015 12:22:50 GMT+0545 (Nepal Standard Time)\n"
+"Last-Translator: admin <pra@gmail.com>\n"
+"Language-Team: AccessPress Themes <info@accesspressthemes.com>\n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: ru_RU"
+
+#: ../404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Не могу найти такой страницы. Странно..."
+
+#: ../archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr "Редактор: %s"
+
+#: ../archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: ../archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: ../archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: ../archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: ../archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: ../archive.php:39
+msgid "Asides"
+msgstr "Резервы"
+
+#: ../archive.php:42
+msgid "Galleries"
+msgstr "Галереи"
+
+#: ../archive.php:45
+msgid "Images"
+msgstr "Изображения"
+
+#: ../archive.php:48
+msgid "Videos"
+msgstr "Видео"
+
+#: ../archive.php:51
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: ../archive.php:54
+msgid "Links"
+msgstr "Ссылки"
+
+#: ../archive.php:57
+msgid "Statuses"
+msgstr "Состояния"
+
+#: ../archive.php:60
+msgid "Audios"
+msgstr "Аудио"
+
+#: ../archive.php:63
+msgid "Chats"
+msgstr "Чаты"
+
+#: ../archive.php:66
+msgid "Archives"
+msgstr "Архивы"
+
+#: ../comments.php:28
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35 ../comments.php:52
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: ../comments.php:36 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущий комментарий"
+
+#: ../comments.php:37 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Следующий комментарий &rarr;"
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr "Комментарии не доступны."
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начни отсюда</a>."
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не найдено по вашему запросу. Пожалуйста, попробуйте еще "
+"раз с другими ключевыми словами."
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "По все видимости мы не можем найти то, то вы ищите. Постарайтесь еще. "
+
+#: ../content-page.php:18 ../content-single.php:31 ../content.php:35
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../content-page.php:24 ../content-search.php:53 ../content-single.php:73
+msgid "Edit"
+msgstr "Редактировать"
+
+#. translators: used between list items, there is a space after the comma
+#: ../content-search.php:30 ../content-search.php:40 ../content-single.php:41 ..
+#: content-single.php:44 ../content.php:45 ../content.php:55
+msgid ", "
+msgstr ""
+
+#: ../content-search.php:34
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Опубликованно в %1$s"
+
+#: ../content-search.php:44
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Те: %1$s"
+
+#: ../content-search.php:50
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: ../content-search.php:50
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: ../content-search.php:50
+msgid "% Comments"
+msgstr "% Комментария"
+
+#: ../content-single.php:49
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Эта запись была отмечена тегом %2$s. Закладка <a href=\"%3$s\" "
+"rel=\"bookmark\">ссылка</a>."
+
+#: ../content-single.php:51
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Закладка <a href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: ../content-single.php:57
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Эта запись была опубликована в %1$s и отмечена тегом %2$s. Закладка <a "
+"href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: ../content-single.php:59
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Запись опубликована в %1$s. Закладка <a href=\"%3$s\" "
+"rel=\"bookmark\">ссылка</a>."
+
+#: ../content.php:32
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать дальше <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content.php:49
+#, php-format
+msgid "<i class=\"fa fa-folder-open\"></i>Posted in %1$s"
+msgstr "<i class=\"fa fa-folder-open\"></i>Опубликованно в %1$s"
+
+#: ../content.php:59
+#, php-format
+msgid "<i class=\"fa fa-tags\"></i>Tagged %1$s"
+msgstr "<i class=\"fa fa-tags\"></i>Тег: %1$s"
+
+#: ../content.php:65
+msgid "<i class=\"fa fa-comments\"></i>Leave a comment"
+msgstr "<i class=\"fa fa-comments\"></i>Оставить комментарий"
+
+#: ../content.php:65
+msgid "<i class=\"fa fa-comments\"></i>1 Comment"
+msgstr "<i class=\"fa fa-comments\"></i>1 Комментарий"
+
+#: ../content.php:65
+msgid "<i class=\"fa fa-comments\"></i>% Comments"
+msgstr "<i class=\"fa fa-comments\"></i>% Комментария"
+
+#: ../content.php:68
+msgid "<i class=\"fa fa-pencil-square-o\"></i>Edit"
+msgstr "<i class=\"fa fa-pencil-square-o\"></i>Редактировать"
+
+#: ../demo.php:6
+msgid ""
+"Curabitur eget interdum risus. Curabitur dictum, libero ut mattis consequat, "
+"lectus mauris congue risus, et volutpat nulla eros vel arcu."
+msgstr ""
+
+#: ../demo.php:16 ../demo.php:28 ../demo.php:40 ../demo.php:52 ../demo.php:64 ..
+#: demo.php:76 ../demo.php:89
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus "
+"vitae ligula elementum ut luctus lorem facilisis."
+msgstr ""
+
+#: ../demo.php:98
+msgid "Product 11"
+msgstr "Продукт 11"
+
+#: ../demo.php:105
+msgid "Product 10"
+msgstr "Продукт 10"
+
+#: ../demo.php:112
+msgid "Product 9"
+msgstr "Продукт 9"
+
+#: ../demo.php:119
+msgid "Product 8"
+msgstr "Продукт 8"
+
+#: ../demo.php:126
+msgid "Product 7"
+msgstr "Продукт 7"
+
+#: ../demo.php:133
+msgid "Product 6"
+msgstr "Продукт 6"
+
+#: ../demo.php:140
+msgid "Product 5"
+msgstr "Продукт 5"
+
+#: ../demo.php:147
+msgid "Product 4"
+msgstr "Продукт 4"
+
+#: ../demo.php:191
+msgid "Russel Clinton"
+msgstr "Рассел Клинтон"
+
+#: ../demo.php:192
+msgid "Interior Head"
+msgstr ""
+
+#: ../demo.php:193
+msgid ""
+"Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin "
+"quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam "
+"quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, "
+"lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, "
+"id maximus purus molestie.<br /><br />\n"
+"                                Duis luctus nisl vel rhoncus rhoncus. Nam "
+"vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor "
+"urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque "
+"ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. "
+"Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: ../demo.php:202
+msgid "Bibo Aurther"
+msgstr ""
+
+#: ../demo.php:203
+msgid "CEO"
+msgstr ""
+
+#: ../demo.php:204
+msgid ""
+"Proin libero odio, ultrices et tincidunt vitae, consequat et sapien. Duis "
+"luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis "
+"lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis "
+"facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis "
+"dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus "
+"purus molestie.<br /><br />\n"
+"                                Proin libero odio, ultrices et tincidunt "
+"vitae, consequat et sapien. Duis luctus nisl vel rhoncus rhoncus. Nam "
+"vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor "
+"urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque "
+"ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. "
+"Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: ../demo.php:213
+msgid "Rusel Misil"
+msgstr ""
+
+#: ../demo.php:214
+msgid "Technician"
+msgstr ""
+
+#: ../demo.php:215
+msgid ""
+"Etiam vestibulum pellentesque nisi, ac scelerisque metus aliquam non. Proin "
+"tincidunt tortor auctor, accumsan arcu id, congue felis. Curabitur vitae "
+"lorem at purus imperdiet commodo quis non sem. Donec magna odio, commodo "
+"eget rhoncus quis, facilisis et dolor.<br /><br />\n"
+"                                Proin libero odio, ultrices et tincidunt "
+"vitae, consequat et sapien. Duis luctus nisl vel rhoncus rhoncus. Nam "
+"vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor "
+"urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque "
+"ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. "
+"Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: ../demo.php:224
+msgid "Linda Harley"
+msgstr ""
+
+#: ../demo.php:225 ../demo.php:236
+msgid "Staff"
+msgstr ""
+
+#: ../demo.php:226
+msgid ""
+"Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus "
+"vestibulum vestibulum mi quis posuere. Aenean pretium purus ut purus "
+"vehicula dictum. Morbi elementum dignissim aliquet. Nullam et purus et mi "
+"finibus laoreet. Aliquam posuere erat eu lobortis vulputate. Phasellus "
+"pulvinar fringilla turpis in congue. Integer et felis fringilla, elementum "
+"lacus eu, tincidunt purus.<br/><br />\n"
+"                            Nulla facilisis sapien dui, vel faucibus risus "
+"consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean "
+"pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. "
+"Nullam et purus et mi finibus laoreet. Aliquam posuere erat eu lobortis "
+"vulputate. Phasellus pulvinar fringilla turpis in congue. Integer et felis "
+"fringilla, elementum lacus eu, tincidunt purus."
+msgstr ""
+
+#: ../demo.php:235
+msgid "John Doe"
+msgstr ""
+
+#: ../demo.php:237
+msgid ""
+"Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc "
+"ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis "
+"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere."
+" Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"                            Nulla facilisis sapien dui, vel faucibus risus "
+"consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean "
+"pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. "
+"Nullam et purus et mi finibus laoreet. Aliquam posuere erat eu lobortis "
+"vulputate. Phasellus pulvinar fringilla turpis in congue. Integer et felis "
+"fringilla, elementum lacus eu, tincidunt purus."
+msgstr ""
+
+#: ../demo.php:246
+msgid "Jakson Biber"
+msgstr ""
+
+#: ../demo.php:247
+msgid "Marketing Executive"
+msgstr ""
+
+#: ../demo.php:248
+msgid ""
+"Fusce imperdiet enim eget neque auctor, venenatis feugiat neque dapibus. "
+"Nulla consequat, nunc sed vestibulum semper, nibh velit pellentesque lectus, "
+"ac lobortis elit massa hendrerit lacus. Nulla facilisis sapien dui, vel "
+"faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis "
+"posuere.<br/><br />\n"
+"                            Fusce imperdiet enim eget neque auctor, "
+"venenatis feugiat neque dapibus. Nulla consequat, nunc sed vestibulum semper,"
+" nibh velit pellentesque lectus, ac lobortis elit massa hendrerit lacus. "
+"Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus "
+"vestibulum vestibulum mi quis posuere."
+msgstr ""
+
+#: ../demo.php:257
+msgid "Jack Peterson"
+msgstr ""
+
+#: ../demo.php:258
+msgid "Sales Executive"
+msgstr ""
+
+#: ../demo.php:259
+msgid ""
+"Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc "
+"ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis "
+"malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere."
+" Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"                            Donec ut neque placerat, euismod enim et, "
+"sodales magna. Sed sit amet nunc ullamcorper, semper nunc mattis, "
+"scelerisque urna. Donec dictum mattis malesuada. Suspendisse vestibulum enim "
+"eu nisi auctor, a mollis odio posuere. Ut scelerisque luctus arcu id tempus."
+msgstr ""
+
+#: ../demo.php:275
+msgid "Testimonials"
+msgstr "Цитаты"
+
+#: ../demo.php:281
+msgid ""
+"Thanks for delivering top quality services to your clients. It just takes a "
+"minute to get an answer from you when in difficulties. I use the chat "
+"service and I can say that the AccessPress Themes staff knows how to shorten "
+"the physical distance to its clients.<br />Thanks again for making our "
+"experience with AccessPress Themes the best one online!"
+msgstr ""
+
+#: ../demo.php:283
+msgid "Yanetxys Torreblanca"
+msgstr ""
+
+#: ../demo.php:289
+msgid ""
+"Thank you very much the support team accesspress lite for service, are "
+"really wonderful in their care and in the resolution of the problem. "
+"Congratulations to facebook chat and Junu team."
+msgstr ""
+
+#: ../demo.php:291
+msgid "David Soriano"
+msgstr ""
+
+#: ../demo.php:297
+msgid ""
+"Great Customer service and technical assistance!!!<br />\n"
+"                                The template is really good and nice, "
+"definitely worth going PRO"
+msgstr ""
+
+#: ../demo.php:300
+msgid "Stefano Roganti"
+msgstr ""
+
+#: ../demo.php:315
+msgid "Read our latest blog"
+msgstr ""
+
+#: ../demo.php:324
+msgid "Nulla pretium leo ac congue"
+msgstr ""
+
+#: ../demo.php:325
+msgid "December 26, 2014"
+msgstr ""
+
+#: ../demo.php:326
+msgid ""
+"Nulla pretium leo ac congue molestie. Aliquam ac velit laoreet, consectetur "
+"elit pulvinar, elementum lorem. Duis sed venenatis eros. Vestibulum ante "
+"ipsum primis in faucibus orci luctus et ultrices po... "
+msgstr ""
+
+#: ../demo.php:327 ../demo.php:338 ../demo.php:349
+msgid "Read More"
+msgstr "Читать далее"
+
+#: ../demo.php:335
+msgid "Pellentesque cursus dolor quis"
+msgstr ""
+
+#: ../demo.php:336 ../demo.php:347
+msgid "September 9, 2014"
+msgstr ""
+
+#: ../demo.php:337
+msgid ""
+"Nullam faucibus mi at quam mattis egestas. Ut dapibus lectus at risus "
+"rhoncus finibus. Pellentesque sem risus, suscipit iaculis ex in, rutrum "
+"sodales enim. Vivamus non mauris tortor. Maecenas tellus n... "
+msgstr ""
+
+#: ../demo.php:346
+msgid "Lorem ipsum dolor"
+msgstr ""
+
+#: ../demo.php:348
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ullamco laboris nisi ut ... "
+msgstr ""
+
+#: ../demo.php:354
+msgid "Read All"
+msgstr "Читать все"
+
+#: ../demo.php:362
+msgid "For News and Updates Subscribe us"
+msgstr "Оформите подписку на новости и обновления "
+
+#: ../demo.php:365
+msgid "Here can be some text as well"
+msgstr "Здесь может быть также немного текста"
+
+#: ../demo.php:366
+msgid "Subscribe Us"
+msgstr "Подпишитесь на нас"
+
+#: ../demo.php:400
+msgid "AccessPress Themes"
+msgstr "Тема AccessPress"
+
+#: ../demo.php:401
+msgid "5th Floor, Mathuri Sadan"
+msgstr ""
+
+#: ../demo.php:402
+msgid "Rabi Bhawan, Kathmandu - Nepal"
+msgstr ""
+
+#: ../demo.php:404
+msgid "General enquiries:"
+msgstr "Общие вопросы:"
+
+#: ../demo.php:405
+msgid "Support:"
+msgstr "Поддержка:"
+
+#: ../demo.php:407
+msgid "Skype: access-keys"
+msgstr ""
+
+#: ../footer.php:53
+msgid "AccessPress Parallax by"
+msgstr ""
+
+#: ../functions.php:63
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: ../functions.php:98
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: ../functions.php:108
+msgid "Footer One"
+msgstr "Подвал один"
+
+#: ../functions.php:118
+msgid "Footer Two"
+msgstr "Подвал два"
+
+#: ../functions.php:128
+msgid "Footer Three"
+msgstr "Подвал три"
+
+#: ../functions.php:138
+msgid "Footer Four"
+msgstr "Подвал четыри"
+
+#: ../header.php:41
+msgid "Menu"
+msgstr "Меню "
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: ../inc/accesspress-functions.php:64
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s "
+
+#: ../inc/accesspress-options.php:32
+msgid "Fade"
+msgstr "Угасание"
+
+#: ../inc/accesspress-options.php:33
+msgid "Slide Horizontal"
+msgstr "Горизонтальное перекрытие"
+
+#: ../inc/accesspress-options.php:34
+msgid "Slide Vertical"
+msgstr "Вертикальное перекрытие"
+
+#: ../inc/accesspress-options.php:38 ../inc/ajax.php:116 ../inc/options-
+#: framework/includes/class-options-sanitization.php:492
+msgid "Overlay 1"
+msgstr "Наложение 1"
+
+#: ../inc/accesspress-options.php:39 ../inc/ajax.php:117 ../inc/options-
+#: framework/includes/class-options-sanitization.php:493
+msgid "Overlay 2"
+msgstr "Наложение 2"
+
+#: ../inc/accesspress-options.php:40 ../inc/ajax.php:118 ../inc/options-
+#: framework/includes/class-options-sanitization.php:494
+msgid "Overlay 3"
+msgstr "Наложение 3"
+
+#: ../inc/accesspress-options.php:41 ../inc/ajax.php:119 ../inc/options-
+#: framework/includes/class-options-sanitization.php:495
+msgid "Overlay 4"
+msgstr ""
+
+#: ../inc/accesspress-options.php:45 ../inc/ajax.php:45 ../inc/options-
+#: framework/includes/class-options-sanitization.php:471
+msgid "Default Section"
+msgstr "Раздел по умолчанию"
+
+#: ../inc/accesspress-options.php:46 ../inc/ajax.php:46 ../inc/options-
+#: framework/includes/class-options-sanitization.php:472
+msgid "Service Section"
+msgstr "Раздел Услуги"
+
+#: ../inc/accesspress-options.php:47 ../inc/ajax.php:47 ../inc/options-
+#: framework/includes/class-options-sanitization.php:473
+msgid "Team Section"
+msgstr "Раздел Команда"
+
+#: ../inc/accesspress-options.php:48 ../inc/ajax.php:48 ../inc/options-
+#: framework/includes/class-options-sanitization.php:474
+msgid "Portfolio Section"
+msgstr "Раздел Портфолио"
+
+#: ../inc/accesspress-options.php:49 ../inc/ajax.php:49 ../inc/options-
+#: framework/includes/class-options-sanitization.php:475
+msgid "Testimonial Section"
+msgstr "Раздел Отзывы"
+
+#: ../inc/accesspress-options.php:50 ../inc/ajax.php:50 ../inc/options-
+#: framework/includes/class-options-sanitization.php:476
+msgid "Blog Section"
+msgstr "Раздел Блог"
+
+#: ../inc/accesspress-options.php:51 ../inc/ajax.php:51 ../inc/options-
+#: framework/includes/class-options-sanitization.php:477
+msgid "Call to Action Section"
+msgstr "Раздел Сделай Звонок"
+
+#: ../inc/accesspress-options.php:52 ../inc/ajax.php:52 ../inc/options-
+#: framework/includes/class-options-sanitization.php:478
+msgid "Google Map Section"
+msgstr "Раздел Карты Google"
+
+#: ../inc/accesspress-options.php:53 ../inc/ajax.php:53 ../inc/options-
+#: framework/includes/class-options-sanitization.php:479
+msgid "Blank Section"
+msgstr "Раздел Пустой"
+
+#: ../inc/accesspress-options.php:57
+msgid "Yes"
+msgstr "Да"
+
+#: ../inc/accesspress-options.php:58
+msgid "No"
+msgstr "Нет"
+
+#: ../inc/accesspress-options.php:62
+msgid "One"
+msgstr "Один"
+
+#: ../inc/accesspress-options.php:63
+msgid "Two"
+msgstr "Два"
+
+#: ../inc/accesspress-options.php:64
+msgid "Three"
+msgstr "Три"
+
+#: ../inc/accesspress-options.php:65
+msgid "Four"
+msgstr "Четыри"
+
+#: ../inc/accesspress-options.php:66
+msgid "Five"
+msgstr "Пять"
+
+#: ../inc/accesspress-options.php:71
+msgid "French Toast"
+msgstr "Французский тост"
+
+#: ../inc/accesspress-options.php:72
+msgid "Pancake"
+msgstr "Оладь"
+
+#: ../inc/accesspress-options.php:73
+msgid "Omelette"
+msgstr "Омлет"
+
+#: ../inc/accesspress-options.php:74
+msgid "Crepe"
+msgstr "Креп"
+
+#: ../inc/accesspress-options.php:75
+msgid "Waffle"
+msgstr "Вафля"
+
+#: ../inc/accesspress-options.php:97
+msgid ""
+"AccessPress Parallax is a beautiful WordPress theme with Parallax design. "
+"Parallax design has become popular and is being adopted because 3D effects "
+"are possible with it, you can add some sphere to your product, it is the "
+"best way of storytelling, you can draw your visitors in, it is interactive, "
+"engaging, makes your visitors curious, fun, surprise, effective to trigger "
+"action, invite your visitors in great Call to Action, great conversion rates "
+"and many more. This is probably the most beautiful, feature rich and "
+"complete free WordPress parallax theme with features like: fully responsive, "
+"advance theme option panel, featured slider, advance post settings, "
+"services/team/blog/portfolio/testimonial layout, Google map integration, "
+"custom logo/fav icon, call to action, CSS animation, SEO friendly, "
+"translation ready, RTL support, custom CSS/JS and more! "
+msgstr ""
+
+#: ../inc/accesspress-options.php:98
+msgid "- A WordPress Division of Access Keys."
+msgstr "Узнайте подробней"
+
+#: ../inc/accesspress-options.php:102
+msgid "Other products by AccessPressThemes"
+msgstr "Дпугие продукты от AccessPressThemes"
+
+#: ../inc/accesspress-options.php:103
+msgid "Our Themes - "
+msgstr ""
+
+#: ../inc/accesspress-options.php:104
+msgid "Our Plugins - "
+msgstr ""
+
+#: ../inc/accesspress-options.php:108
+msgid "Get in touch"
+msgstr "Оставаться на связи"
+
+#: ../inc/accesspress-options.php:109
+msgid "If you have any question/feedback regarding theme, please post in our forum"
+msgstr ""
+
+#: ../inc/accesspress-options.php:110
+msgid "Forum:"
+msgstr ""
+
+#: ../inc/accesspress-options.php:111
+msgid "For Queries Regading Pro Themes:"
+msgstr ""
+
+#: ../inc/accesspress-options.php:116
+msgid "Get social"
+msgstr "Социальные кнопки"
+
+#: ../inc/accesspress-options.php:118
+msgid ""
+"Get connected with us on social media. Facebook is the best place to find "
+"updates on our themes/plugins:"
+msgstr ""
+"Подключайтесь к нам в социальных сетях. Facebook является лучшим местом для "
+"поиска новостей о наших темах и  плагинах:"
+
+#: ../inc/accesspress-options.php:120
+msgid "Like us on facebook:"
+msgstr "Лайкните нас на Facebooke:"
+
+#: ../inc/accesspress-options.php:154
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: ../inc/accesspress-options.php:158
+msgid ""
+"Enable Single Page Parallax Home Page - if disabled, will show Blog-"
+"roll/Static-page"
+msgstr ""
+
+#: ../inc/accesspress-options.php:159 ../inc/accesspress-options.php:166 ..
+#: inc/accesspress-options.php:180 ../inc/accesspress-options.php:187 ..
+#: inc/accesspress-options.php:264 ../inc/accesspress-options.php:271 ..
+#: inc/accesspress-options.php:278 ../inc/accesspress-options.php:285 ..
+#: inc/accesspress-options.php:377
+msgid "Check To enable"
+msgstr "Отметить чтобы включить"
+
+#: ../inc/accesspress-options.php:165
+msgid "Enable Single Page Nav(Menu) - if disabled, will show primary menu"
+msgstr ""
+
+#: ../inc/accesspress-options.php:172
+msgid "Home Menu Text - Single Page Nav(Menu)"
+msgstr ""
+
+#: ../inc/accesspress-options.php:179
+msgid ""
+"Enable Animation on scroll - Page Elements will show with some animation "
+"only in home page."
+msgstr ""
+
+#: ../inc/accesspress-options.php:186
+msgid "Enable Responsive"
+msgstr "Включить адаптивность"
+
+#: ../inc/accesspress-options.php:194
+msgid "Upload Logo"
+msgstr "Загрузить Логотип"
+
+#: ../inc/accesspress-options.php:195 ../inc/ajax.php:70 ../inc/options-
+#: framework/includes/class-options-media-uploader.php:66 ../inc/options-
+#: framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Загрузить"
+
+#: ../inc/accesspress-options.php:199
+msgid "Upload Fav Icon"
+msgstr "Загрузить Favicon"
+
+#: ../inc/accesspress-options.php:205
+msgid "Select Header Layout"
+msgstr ""
+
+#: ../inc/accesspress-options.php:215
+msgid "Google Map"
+msgstr "Карты Goolge"
+
+#: ../inc/accesspress-options.php:216
+#, php-format
+msgid ""
+"To get Values of Latitude and Longitude by Location name, click on <a "
+"href=\"%s\">http://www.latlong.net</a>"
+msgstr ""
+"Чтобы получить значения широты и долготы по названию места, нажмите на <a "
+"href=\"%s\">http://www.latlong.net</a>"
+
+#: ../inc/accesspress-options.php:221
+msgid "Enter the latitude"
+msgstr "Введите широту"
+
+#: ../inc/accesspress-options.php:228
+msgid "Enter the longitude"
+msgstr "Введите долготу"
+
+#: ../inc/accesspress-options.php:235
+msgid "Parallax Sections"
+msgstr ""
+
+#: ../inc/accesspress-options.php:239
+msgid ""
+"<strong>Note: Please make a new page before you create a section. Each "
+"Section should have unique Page.</strong>"
+msgstr ""
+
+#: ../inc/accesspress-options.php:259
+msgid "Post Settings"
+msgstr "Настройки записей"
+
+#: ../inc/accesspress-options.php:263
+msgid "Show Posted Date"
+msgstr "Показывать дату публикации"
+
+#: ../inc/accesspress-options.php:270
+msgid "Show Post Author"
+msgstr "Показывать автора записи"
+
+#: ../inc/accesspress-options.php:277
+msgid "Show Post Footer text"
+msgstr "Показывать текст под записью"
+
+#: ../inc/accesspress-options.php:284
+msgid "Show Prev Next Pagination"
+msgstr "Показывать \\\"Вперед\\\" \\\"Назад\\\" под постом"
+
+#: ../inc/accesspress-options.php:292
+msgid "Slider Settings"
+msgstr "Настройки Слайдера"
+
+#: ../inc/accesspress-options.php:296
+msgid "Show Slider"
+msgstr "Показывать слайдер"
+
+#: ../inc/accesspress-options.php:304
+msgid "Select a Category"
+msgstr "Выбрать Категорию"
+
+#: ../inc/accesspress-options.php:311
+msgid "Show full window"
+msgstr "Показывать во все окно"
+
+#: ../inc/accesspress-options.php:318
+msgid "Remove Slider overlay - Black Dots"
+msgstr ""
+
+#: ../inc/accesspress-options.php:325
+msgid "Show Pager"
+msgstr "Показывать Пейджер"
+
+#: ../inc/accesspress-options.php:332
+msgid "Show Controls"
+msgstr "Показывать Управление"
+
+#: ../inc/accesspress-options.php:339
+msgid "Auto Transition"
+msgstr "Авто Переход"
+
+#: ../inc/accesspress-options.php:346
+msgid "Slider Transition"
+msgstr "Смена Слайдов"
+
+#: ../inc/accesspress-options.php:353
+msgid "Slider Transition Speed"
+msgstr "Скорость Смены Слайдов"
+
+#: ../inc/accesspress-options.php:359
+msgid "Slider Pause Duration"
+msgstr "Пауза между слайдами"
+
+#: ../inc/accesspress-options.php:365
+msgid "Show Caption"
+msgstr "Показывать подпись"
+
+#: ../inc/accesspress-options.php:372
+msgid "Social Links"
+msgstr "Социальные кнопки"
+
+#: ../inc/accesspress-options.php:376
+msgid "Show Social Icon"
+msgstr "Показывать социальные кнопки"
+
+#: ../inc/accesspress-options.php:383
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/accesspress-options.php:388
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/accesspress-options.php:393
+msgid "Google Plus"
+msgstr ""
+
+#: ../inc/accesspress-options.php:398
+msgid "Youtube"
+msgstr ""
+
+#: ../inc/accesspress-options.php:403
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/accesspress-options.php:408
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/accesspress-options.php:413
+msgid "Fickr"
+msgstr ""
+
+#: ../inc/accesspress-options.php:418
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/accesspress-options.php:423
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/accesspress-options.php:428
+msgid "Skype"
+msgstr ""
+
+#: ../inc/accesspress-options.php:433
+msgid "Tools"
+msgstr "Инструменты"
+
+#: ../inc/accesspress-options.php:437
+msgid "Custom CSS"
+msgstr "Свой CSS"
+
+#: ../inc/accesspress-options.php:443
+msgid "Custom JS"
+msgstr "Свой JS"
+
+#: ../inc/accesspress-options.php:449
+msgid "About"
+msgstr "О нас"
+
+#: ../inc/accesspress-options.php:453
+msgid "About AccessPress Themes"
+msgstr "Подробнее об AccessPress Themes"
+
+#: ../inc/ajax.php:19
+msgid "Page Title:"
+msgstr ""
+
+#: ../inc/ajax.php:23 ../inc/options-framework/includes/class-options-interface.
+#: php:430
+msgid "Page"
+msgstr ""
+
+#: ../inc/ajax.php:25
+msgid "Select a page:"
+msgstr ""
+
+#: ../inc/ajax.php:33 ../inc/options-framework/includes/class-options-interface.
+#: php:446
+msgid "Font Color"
+msgstr ""
+
+#: ../inc/ajax.php:38 ../inc/options-framework/includes/class-options-interface.
+#: php:457
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/ajax.php:43 ../inc/options-framework/includes/class-options-interface.
+#: php:463
+msgid "Layout"
+msgstr ""
+
+#: ../inc/ajax.php:58 ../inc/options-framework/includes/class-options-interface.
+#: php:475
+msgid "Category"
+msgstr ""
+
+#: ../inc/ajax.php:60
+msgid "Select a Category:"
+msgstr ""
+
+#: ../inc/ajax.php:68
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/ajax.php:76 ../inc/options-framework/includes/class-options-interface.
+#: php:499
+msgid "Background Settings"
+msgstr ""
+
+#: ../inc/ajax.php:81 ../inc/options-framework/includes/class-options-
+#: sanitization.php:408
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/ajax.php:82 ../inc/options-framework/includes/class-options-
+#: sanitization.php:409
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../inc/ajax.php:83 ../inc/options-framework/includes/class-options-
+#: sanitization.php:410
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../inc/ajax.php:84 ../inc/options-framework/includes/class-options-
+#: sanitization.php:411
+msgid "Repeat All"
+msgstr ""
+
+#: ../inc/ajax.php:88 ../inc/options-framework/includes/class-options-
+#: sanitization.php:423
+msgid "Top Left"
+msgstr ""
+
+#: ../inc/ajax.php:89 ../inc/options-framework/includes/class-options-
+#: sanitization.php:424
+msgid "Top Center"
+msgstr ""
+
+#: ../inc/ajax.php:90 ../inc/options-framework/includes/class-options-
+#: sanitization.php:425
+msgid "Top Right"
+msgstr ""
+
+#: ../inc/ajax.php:91 ../inc/options-framework/includes/class-options-
+#: sanitization.php:426
+msgid "Middle Left"
+msgstr ""
+
+#: ../inc/ajax.php:92 ../inc/options-framework/includes/class-options-
+#: sanitization.php:427
+msgid "Middle Center"
+msgstr ""
+
+#: ../inc/ajax.php:93 ../inc/options-framework/includes/class-options-
+#: sanitization.php:428
+msgid "Middle Right"
+msgstr ""
+
+#: ../inc/ajax.php:94 ../inc/options-framework/includes/class-options-
+#: sanitization.php:429
+msgid "Bottom Left"
+msgstr ""
+
+#: ../inc/ajax.php:95 ../inc/options-framework/includes/class-options-
+#: sanitization.php:430
+msgid "Bottom Center"
+msgstr ""
+
+#: ../inc/ajax.php:96 ../inc/options-framework/includes/class-options-
+#: sanitization.php:431
+msgid "Bottom Right"
+msgstr ""
+
+#: ../inc/ajax.php:100 ../inc/options-framework/includes/class-options-
+#: sanitization.php:443
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../inc/ajax.php:101 ../inc/options-framework/includes/class-options-
+#: sanitization.php:444
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../inc/ajax.php:105 ../inc/options-framework/includes/class-options-
+#: sanitization.php:456
+msgid "Auto"
+msgstr ""
+
+#: ../inc/ajax.php:106 ../inc/options-framework/includes/class-options-
+#: sanitization.php:457
+msgid "Cover"
+msgstr ""
+
+#: ../inc/ajax.php:107 ../inc/options-framework/includes/class-options-
+#: sanitization.php:458
+msgid "Contain"
+msgstr ""
+
+#: ../inc/ajax.php:113 ../inc/options-framework/includes/class-options-interface.
+#: php:542
+msgid "Overlay"
+msgstr ""
+
+#: ../inc/ajax.php:115 ../inc/options-framework/includes/class-options-
+#: sanitization.php:491
+msgid "No Overlay"
+msgstr ""
+
+#: ../inc/ajax.php:123 ../inc/options-framework/includes/class-options-interface.
+#: php:553 ../inc/options-framework/includes/class-options-media-uploader.php:68 .
+#: ./inc/options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: ../inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Навигация по Постам"
+
+#: ../inc/template-tags.php:25
+msgid "<i class=\"fa fa-hand-o-left\"></i> Older Posts"
+msgstr "<i class=\"fa fa-hand-o-left\"></i> Пост Назад"
+
+#: ../inc/template-tags.php:29
+msgid "Newer Posts <i class=\"fa fa-hand-o-right\"></i>"
+msgstr "Пост Вперед <i class=\"fa fa-hand-o-right\"></i>"
+
+#: ../inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Навигация по Постам"
+
+#: ../inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-hand-o-left\"></i>%title"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title<i class=\"fa fa-hand-o-right\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:85
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr "От %s"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:77
+msgid "Theme Options"
+msgstr "Настройки Темы"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:172
+msgid "AccessPress Lite"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:176
+msgid "Follow us for new updates"
+msgstr "Следите за новыми обновлениями"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:200
+msgid "Save Options"
+msgstr "Сохранить Настройки"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:201
+msgid "Restore Defaults"
+msgstr "Восстановить по умолчанию"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:201
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите кнопку OK, чтобы сбросить. Все настройки темы будут потеряны!"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:233
+msgid "Like our Facebook page and don't miss any updates!"
+msgstr "Лайкните нашу страницу Facebook и не упустите ни одной новости!"
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:261
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены. "
+
+#: ../inc/options-framework/includes/class-options-framework-admin.php:315
+msgid "Options saved."
+msgstr "Настройки Сохранены."
+
+#: ../inc/options-framework/includes/class-options-interface.php:426
+msgid "Page Title: "
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-interface.php:563
+msgid "Add New Section"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-sanitization.php:567
+msgid "Normal"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-sanitization.php:568
+msgid "Italic"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-sanitization.php:569
+msgid "Bold"
+msgstr ""
+
+#: ../inc/options-framework/includes/class-options-sanitization.php:570
+msgid "Bold Italic"
+msgstr ""

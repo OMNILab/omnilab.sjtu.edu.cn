@@ -241,8 +241,6 @@ if ( is_array( $input ) ) {
 	$output[$key]['position'] = apply_filters( 'of_background_position', $input[$key]['position'] );
 	$output[$key]['attachment'] = apply_filters( 'of_background_attachment', $input[$key]['attachment'] );
 	$output[$key]['size'] = apply_filters( 'of_background_size', $input[$key]['size'] );
-
-
 	}
 }
 	
@@ -407,10 +405,10 @@ add_filter( 'of_font_face', 'of_sanitize_font_face' );
  */
 function of_recognized_background_repeat() {
 	$default = array(
-		'no-repeat' => __( 'No Repeat', 'options-framework' ),
-		'repeat-x'  => __( 'Repeat Horizontally', 'options-framework' ),
-		'repeat-y'  => __( 'Repeat Vertically', 'options-framework' ),
-		'repeat'    => __( 'Repeat All', 'options-framework' ),
+		'no-repeat' => __( 'No Repeat', 'accesspress_parallax' ),
+		'repeat-x'  => __( 'Repeat Horizontally', 'accesspress_parallax' ),
+		'repeat-y'  => __( 'Repeat Vertically', 'accesspress_parallax' ),
+		'repeat'    => __( 'Repeat All', 'accesspress_parallax' ),
 		);
 	return apply_filters( 'of_recognized_background_repeat', $default );
 }
@@ -422,15 +420,15 @@ function of_recognized_background_repeat() {
  */
 function of_recognized_background_position() {
 	$default = array(
-		'top left'      => __( 'Top Left', 'options-framework' ),
-		'top center'    => __( 'Top Center', 'options-framework' ),
-		'top right'     => __( 'Top Right', 'options-framework' ),
-		'center left'   => __( 'Middle Left', 'options-framework' ),
-		'center center' => __( 'Middle Center', 'options-framework' ),
-		'center right'  => __( 'Middle Right', 'options-framework' ),
-		'bottom left'   => __( 'Bottom Left', 'options-framework' ),
-		'bottom center' => __( 'Bottom Center', 'options-framework' ),
-		'bottom right'  => __( 'Bottom Right', 'options-framework')
+		'top left'      => __( 'Top Left', 'accesspress_parallax' ),
+		'top center'    => __( 'Top Center', 'accesspress_parallax' ),
+		'top right'     => __( 'Top Right', 'accesspress_parallax' ),
+		'center left'   => __( 'Middle Left', 'accesspress_parallax' ),
+		'center center' => __( 'Middle Center', 'accesspress_parallax' ),
+		'center right'  => __( 'Middle Right', 'accesspress_parallax' ),
+		'bottom left'   => __( 'Bottom Left', 'accesspress_parallax' ),
+		'bottom center' => __( 'Bottom Center', 'accesspress_parallax' ),
+		'bottom right'  => __( 'Bottom Right', 'accesspress_parallax')
 		);
 	return apply_filters( 'of_recognized_background_position', $default );
 }
@@ -442,8 +440,8 @@ function of_recognized_background_position() {
  */
 function of_recognized_background_attachment() {
 	$default = array(
-		'scroll' => __( 'Scroll Normally', 'options-framework' ),
-		'fixed'  => __( 'Fixed in Place', 'options-framework')
+		'scroll' => __( 'Scroll Normally', 'accesspress_parallax' ),
+		'fixed'  => __( 'Fixed in Place', 'accesspress_parallax')
 		);
 	return apply_filters( 'of_recognized_background_attachment', $default );
 }
@@ -455,9 +453,9 @@ function of_recognized_background_attachment() {
  */
 function of_recognized_background_size() {
 	$default = array(
-		'auto' => __( 'Auto', 'options-framework' ),
-		'cover'  => __( 'Cover', 'options-framework'),
-		'contain'  => __( 'Contain', 'options-framework')
+		'auto' => __( 'Auto', 'accesspress_parallax' ),
+		'cover'  => __( 'Cover', 'accesspress_parallax'),
+		'contain'  => __( 'Contain', 'accesspress_parallax')
 		);
 	return apply_filters( 'of_recognized_background_size', $default );
 }
@@ -490,11 +488,11 @@ function of_recognized_layout() {
  */
 function of_recognized_background_overlay() {
 	$default = array(
-		'overlay0' => __( 'No Overlay', 'options-framework' ),
-		'overlay1' => __( 'Overlay 1', 'options-framework' ),
-		'overlay2'  => __( 'Overlay 2', 'options-framework'),
-		'overlay3'  => __( 'Overlay 3', 'options-framework'),
-		'overlay4'  => __( 'Overlay 4', 'options-framework')
+		'overlay0' => __( 'No Overlay', 'accesspress_parallax' ),
+		'overlay1' => __( 'Small Dotted', 'accesspress_parallax' ),
+		'overlay2'  => __( 'Large Dotted', 'accesspress_parallax'),
+		'overlay3'  => __( 'Light Black', 'accesspress_parallax'),
+		'overlay4'  => __( 'Black Dotted', 'accesspress_parallax')
 		);
 	return apply_filters( 'of_recognized_background_overlay', $default );
 }
@@ -566,10 +564,10 @@ function of_recognized_font_faces() {
  */
 function of_recognized_font_styles() {
 	$default = array(
-		'normal'      => __( 'Normal', 'options-framework' ),
-		'italic'      => __( 'Italic', 'options-framework' ),
-		'bold'        => __( 'Bold', 'options-framework' ),
-		'bold italic' => __( 'Bold Italic', 'options-framework' )
+		'normal'      => __( 'Normal', 'accesspress_parallax' ),
+		'italic'      => __( 'Italic', 'accesspress_parallax' ),
+		'bold'        => __( 'Bold', 'accesspress_parallax' ),
+		'bold italic' => __( 'Bold Italic', 'accesspress_parallax' )
 		);
 	return apply_filters( 'of_recognized_font_styles', $default );
 }
