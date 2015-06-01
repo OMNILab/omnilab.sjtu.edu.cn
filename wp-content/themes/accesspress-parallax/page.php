@@ -13,6 +13,12 @@
 
 get_header(); ?>
 
+<?php
+	if (is_home() || is_front_page()) {
+		wp_enqueue_style( 'index_style',get_bloginfo('template_url').'/honlan/home.css');
+	}
+?>
+
 <?php 
 if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show_on_front' ) == 'page'){
 	get_template_part('index','parallax');

@@ -10,9 +10,10 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
 	<?php if(has_post_thumbnail()) : ?>
 	<div class="entry-thumb">
-		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'blog-header' ); ?>
+		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'thumbnail' ); ?>
 		<a href="<?php echo get_permalink(); ?>"><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"></a> 
 	</div>
 	<?php endif; ?>
@@ -46,7 +47,7 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 				if ( $categories_list && accesspress_parallax_categorized_blog() ) :
 			?>
 			<span class="cat-links">
-				<?php printf( __( '<i class="fa fa-folder-open"></i>Posted in %1$s', 'accesspress_parallax' ), $categories_list ); ?>
+				<?php printf( __( '<i class="fa fa-folder-open"></i>%1$s', 'accesspress_parallax' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
@@ -56,7 +57,7 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 				if ( $tags_list ) :
 			?>
 			<span class="tags-links">
-				<?php printf( __( '<i class="fa fa-tags"></i>Tagged %1$s', 'accesspress_parallax' ), $tags_list ); ?>
+				<?php printf( __( '<i class="fa fa-tags"></i>%1$s', 'accesspress_parallax' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>

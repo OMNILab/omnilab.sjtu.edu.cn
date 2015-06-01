@@ -47,11 +47,12 @@
 		<div class="bottom-footer">
 			<div class="mid-content clearfix">
 				<div  class="copy-right">
-					&copy; <?php echo date('Y')." "; bloginfo('name'); ?>  
+					<!-- &copy; <?php echo date('Y')." "; bloginfo('name'); ?>   -->
+					Copyright © 2015 Open Metanexus Innovation Laboratory
 				</div><!-- .copy-right -->
-				<div class="site-info">
+				<!--div class="site-info">
 					<?php _e('AccessPress Parallax by','accesspress_parallax'); ?> <a href="<?php echo esc_url('http://accesspressthemes.com/','accesspress_parallax'); ?>" title="AccessPress Themes" target="_blank">AccessPress Themes</a>
-				</div><!-- .site-info -->
+				</div--><!-- .site-info -->
 			</div>
 		</div>
 	</footer><!-- #colophon -->

@@ -15,6 +15,14 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+<?php
+if (is_archive()):
+	wp_enqueue_style( 'archive_style',get_bloginfo('template_url').'/honlan/archive.css');
+endif;
+?>
 <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
 <![endif]-->
@@ -90,7 +98,7 @@
 	?>
 	<div id="content" class="site-content <?php echo $content_class; ?>">
 	<?php 
-	if(is_home() || is_front_page()) :
+	if(is_front_page()) :
 		do_action('accesspress_bxslider'); 
 	endif;
 	?>

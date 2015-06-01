@@ -197,26 +197,26 @@ function accesspress_bxslidercb(){
 
             <div class="bx-slider">
 				<div class="slides">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/demo/slider1.jpg" alt="slider1">
+					<img src="<?php echo get_template_directory_uri(); ?>/honlan/omnilab/slider-networks.png" alt="slider1">
 					<div class="slider-caption">
 						<div class="mid-content">
-							<h1 class="caption-title"><?php _e('Welcome to AccessPress Parallax!','accesspress_parallax'); ?></h1>
+							<h1 class="caption-title"><?php _e('WELCOME TO OMNILAB!','accesspress_parallax'); ?></h1>
 							<h2 class="caption-description">
-							<p><?php _e('A full featured parallax theme - and its absolutely free!','accesspress_parallax'); ?></p>
-							<p><a href="#"><?php _e('Read More','accesspress_parallax'); ?></a></p>
+							<p><?php _e('A place for innovation, creation and hacking<br>with Open Data!','accesspress_parallax'); ?></p>
+							<p><a href="team/"><?php _e('Read More','accesspress_parallax'); ?></a></p>
 							</h2>
 						</div>
 					</div>
 				</div>
 						
 				<div class="slides">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/demo/slider2.jpg" alt="slider2">
+					<img src="<?php echo get_template_directory_uri(); ?>/honlan/omnilab/slider-discuss.jpg" alt="slider2">
 					<div class="slider-caption">
 						<div class="ak-container">
-							<h1 class="caption-title"><?php _e('Amazing multi-purpose parallax theme','accesspress_parallax'); ?></h1>
+							<h1 class="caption-title"><?php _e('AMAZING DATA MINING HAND-ONS!','accesspress_parallax'); ?></h1>
 							<h2 class="caption-description">
-							<p><?php _e('Travel, corporate, small biz, portfolio, agencies, photography, health, creative - useful for anyone and everyone','accesspress_parallax'); ?></p>
-							<p><a href="#"><?php _e('Read More','accesspress_parallax'); ?></a></p>
+							<p><?php _e('Practical data analysis techniques, tutorials, courses, and competetions<br>useful for anyone and everyone','accesspress_parallax'); ?></p>
+							<p><a href="research/"><?php _e('Read More','accesspress_parallax'); ?></a></p>
 							</h2>
 							</div>
 					</div>

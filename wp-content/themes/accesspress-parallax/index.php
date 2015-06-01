@@ -16,6 +16,7 @@ get_header(); ?>
 	get_template_part('index','parallax');
 else: 
 ?>
+
 <div class="mid-content">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">

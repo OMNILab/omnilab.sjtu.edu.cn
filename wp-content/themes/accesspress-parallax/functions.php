@@ -233,3 +233,73 @@ function accesspress_parallax_get_my_option()
 }
 
 add_action("wp_ajax_get_my_option", "accesspress_parallax_get_my_option");
+
+/* add by honlan */
+function honlan_features(){
+	return '<div class="service-listing clearfix">
+            <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="0.25s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-big-data.png" alt="MASSIVE DATA">
+                </div>
+                <div class="service-detail">
+                    <h3>MASSIVE DATA</h3>
+                    <div class="service-content"><p>Process the overwhelming data with Hadoop and Spark. Batch and streaming jobs are supported in a unified system.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix service-list even wow fadeInRight" data-wow-delay="0.5s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-ml.png" alt="MING TECHNIQUES">
+                </div>
+                <div class="service-detail">
+                    <h3>MINING TECHNIQUES</h3>
+                    <div class="service-content"><p>Employ visualization and Machine Learning technologies to uncover gold from realistic data mine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="0.75s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-monitor.png" alt="MEASUREMENT">
+                </div>
+                <div class="service-detail">
+                    <h3>MEASUREMENT</h3>
+                    <div class="service-content"><p>Ever wanted to know how the computer network works? Use data-drive analysis to inspect the dark side of our cyber space.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix service-list even wow fadeInRight" data-wow-delay="1s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-mobile.png" alt="MOBILITY INSPECTION">
+                </div>
+                <div class="service-detail">
+                    <h3>MOBILITY OF HUMAN</h3>
+                    <div class="service-content"><p>Inspect the interesting patterns and universal laws of human behaviour in large-scale wireless networks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="clearfix service-list odd wow fadeInLeft" data-wow-delay="1.25s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-iot.png" alt="MACHINE NETWORKS">
+                </div>
+                <div class="service-detail">
+                    <h3>MACHINE NETWORKS</h3>
+                    <div class="service-content"><p>Heard about Internet of Things? The next opp comes from the connect of every machines and generated data mountains.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix service-list even wow fadeInRight" data-wow-delay="1.5s">
+                <div class="service-image">
+                    <img src="'.get_stylesheet_directory_uri().'/honlan/omnilab/icon-team.png"
+                         alt="MOTIVATED MAKERS">
+                </div>
+                <div class="service-detail">
+                    <h3>MOTIVATED MAKERS</h3>
+                    <div class="service-content"><p>Come to join a team of aspiring and enthusiastic makers to understand, to create, and to better our world.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- #primary -->';
+}
+add_shortcode('honlan_features', 'honlan_features');

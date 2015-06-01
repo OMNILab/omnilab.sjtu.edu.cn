@@ -1865,3 +1865,28 @@ Responsive grid for pages
   }
 
 }
+
+/* add by honlan */
+#masthead {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+#primary {
+	width: 100%;
+}
+#secondary {
+	display: none;
+}
+
+#comments {
+	display: none;
+}
+
+.top-footer .top-footer-wrap {
+	margin-left: 0;
+}
+
+.copy-right {
+	text-align: center;
+	float: none;
+}
