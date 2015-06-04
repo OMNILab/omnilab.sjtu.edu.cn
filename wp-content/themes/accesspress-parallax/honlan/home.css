@@ -188,6 +188,7 @@ article.hentry {
 	position: absolute;
 	width: 80%;
 	height: 96px;
+	text-overflow:ellipsis;
 	overflow: hidden;
 	font-size: 12px;
 	top: 70px;
