@@ -211,6 +211,8 @@ article.hentry {
 }
 #panel-7-2-0-1 .entry-content .personal-extra a {
 	color: white;
+	font-size: 20px;
+	margin: 0 5px;
 }
 #panel-7-2-0-1 .entry-content .personal-extra p {
 	display: none;
