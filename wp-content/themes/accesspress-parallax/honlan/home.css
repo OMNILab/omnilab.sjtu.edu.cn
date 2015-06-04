@@ -187,6 +187,8 @@ article.hentry {
 #panel-7-2-0-1 .entry-content .excerpt {
 	position: absolute;
 	width: 80%;
+	height: 120px;
+	overflow: hidden;
 	top: 70px;
 	left: 10%;
 	color: #eee;
