@@ -181,10 +181,7 @@ article.hentry {
 	-moz-transition: top .3s;
 	-webkit-transition: top .3s;
 }
-#panel-7-2-0-1 .entry-content > p{
-	display: none;
-}
-#panel-7-2-0-1 .entry-content .excerpt {
+#panel-7-2-0-1 .entry-content .post_content {
 	position: absolute;
 	width: 80%;
 	height: 90px;

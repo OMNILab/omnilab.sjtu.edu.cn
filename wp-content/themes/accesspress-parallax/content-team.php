@@ -27,14 +27,13 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 			<span class="entry-date"><?php echo get_post_meta(get_the_ID(), "wpcf-entry-date", true);?></span>
 			<span class="gender"><?php echo get_post_meta(get_the_ID(), "wpcf-gender", true);?></span>
 		</div> -->
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'accesspress_parallax' ) ); ?>
+		<div class="post_content"><?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'accesspress_parallax' ) ); ?></div>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'accesspress_parallax' ),
 				'after'  => '</div>',
 			) );
 		?>
-		<div class="excerpt"><p><?php echo the_excerpt();?></p></div>
 		<div class="personal-extra">
 			<p><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;&nbsp;<a class="Website" href="<?php echo get_post_meta(get_the_ID(), 'wpcf-personal-homepage', true);?>"><?php echo get_post_meta(get_the_ID(), 'wpcf-personal-homepage', true);?></a></p>
 			<p><i class="fa fa-envelope fa-lg"></i>&nbsp;&nbsp;&nbsp;<a class="Email" href="mailto:<?php echo get_post_meta(get_the_ID(), 'wpcf-e-mail', true);?>"><?php echo get_post_meta(get_the_ID(), 'wpcf-e-mail', true);?></a></p>
