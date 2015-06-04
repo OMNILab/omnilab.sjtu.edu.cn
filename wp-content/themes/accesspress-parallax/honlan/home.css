@@ -190,7 +190,7 @@ article.hentry {
 	top: 66px;
 	left: 10%;
 	color: #eee;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity .3s;
 	-o-transition: opacity .3s;
 	-moz-transition: opacity .3s;
