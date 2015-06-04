@@ -23,6 +23,21 @@ if (is_archive()):
 	wp_enqueue_style( 'archive_style',get_bloginfo('template_url').'/honlan/archive.css');
 endif;
 ?>
+
+<?php 
+if (!is_front_page()) {
+?>
+<style>
+#primary {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+</style>
+<?php
+}
+?>
+
 <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
 <![endif]-->
