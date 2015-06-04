@@ -23,7 +23,7 @@ header.page-header {
 		$('article.team a').click(function(event){
 			event.preventDefault();
 		});
-		$('article.research a').click(function(event){
+		$('article.researches a').click(function(event){
 			event.preventDefault();
 		});
 	});
