@@ -25,13 +25,13 @@ endif;
 ?>
 
 <?php 
-if (!is_front_page()) {
+if (is_front_page()) {
 ?>
 <style>
 #primary {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
 }
 </style>
 <?php
