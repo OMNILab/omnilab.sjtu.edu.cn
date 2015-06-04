@@ -27,7 +27,7 @@ header.page-header {
 			event.preventDefault();
 		});
 	});
-</script>>
+</script>
 
 <div class="mid-content clearfix">
 	<section id="primary" class="content-area">
