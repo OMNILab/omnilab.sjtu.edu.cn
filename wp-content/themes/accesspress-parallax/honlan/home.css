@@ -187,10 +187,10 @@ article.hentry {
 	height: 90px;
 	overflow: hidden;
 	font-size: 12px;
-	top: 66px;
+	top: 85px;
 	left: 10%;
 	color: #eee;
-	opacity: 1;
+	opacity: 0;
 	transition: opacity .3s;
 	-o-transition: opacity .3s;
 	-moz-transition: opacity .3s;
