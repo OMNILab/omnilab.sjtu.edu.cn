@@ -18,6 +18,17 @@ header.page-header {
 }
 </style>
 
+<script>
+	$(function(){
+		$('article.team a').click(function(event){
+			event.preventDefault();
+		});
+		$('article.research a').click(function(event){
+			event.preventDefault();
+		});
+	});
+</script>>
+
 <div class="mid-content clearfix">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
