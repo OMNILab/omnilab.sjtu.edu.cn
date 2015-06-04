@@ -13,12 +13,12 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 	<?php if(has_post_thumbnail()) : ?>
 	<div class="entry-thumb">
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'medium' ); ?>
-		<a href="<?php echo home_url()?>/team"><div class="overlay"></div><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"></a>
+		<a href="<?php echo home_url()?>/team/#post-<?php the_ID(); ?>"><div class="overlay"></div><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"></a>
 	</div>
 	<?php endif; ?>
 
 	<header class="entry-header">
-		<h1 class="entry-title<?php echo $post_date_class; ?>"><a href="<?php echo home_url()?>/team"><?php the_title(); ?></a></h1>
+		<h1 class="entry-title<?php echo $post_date_class; ?>"><a href="<?php echo home_url()?>/team/#post-<?php the_ID(); ?>"><?php the_title(); ?></a></h1>
 		<h5><?php echo get_post_meta(get_the_ID(), "wpcf-degree", true);?></h5>	
 	</header><!-- .entry-header -->
 

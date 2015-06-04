@@ -11,7 +11,7 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title<?php echo $post_date_class; ?>"><a href="<?php echo home_url(); ?>/researches"><?php the_title(); ?></a></h1>
+		<h1 class="entry-title<?php echo $post_date_class; ?>"><a href="<?php echo home_url(); ?>/researches/#post-<?php the_ID(); ?>"><?php the_title(); ?></a></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -27,7 +27,7 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 	<?php if(has_post_thumbnail()) : ?>
 	<div class="entry-thumb portfolio-image wow fadeInUp" data-wow-delay="0.25s">
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'medium' ); ?>
-		<a href="<?php echo home_url(); ?>/researches"><div class="overlay"></div><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"></a> 
+		<a href="<?php echo home_url(); ?>/researches/#post-<?php the_ID(); ?>"><div class="overlay"></div><img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>"></a> 
 	</div>
 	<?php endif; ?>
 
