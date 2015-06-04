@@ -24,20 +24,6 @@ if (is_archive()):
 endif;
 ?>
 
-<?php 
-if (is_front_page()) {
-?>
-<style>
-#primary {
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-}
-</style>
-<?php
-}
-?>
-
 <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
 <![endif]-->

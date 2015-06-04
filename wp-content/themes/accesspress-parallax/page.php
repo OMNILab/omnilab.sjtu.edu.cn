@@ -20,6 +20,20 @@ get_header(); ?>
 ?>
 
 <?php 
+if (is_front_page()) {
+?>
+<style>
+#primary {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+</style>
+<?php
+}
+?>
+
+<?php 
 if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show_on_front' ) == 'page'){
 	get_template_part('index','parallax');
 }else{
