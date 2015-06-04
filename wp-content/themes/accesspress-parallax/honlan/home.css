@@ -226,7 +226,7 @@ article.hentry {
 #panel-7-2-0-1 article.team:hover .overlay{
 	top: 0%;
 }
-#panel-7-2-0-1 article.team:hover .entry-header, #panel-7-2-0-1 article.team:hover .personal-extra, #panel-7-2-0-1 article.team:hover .excerpt {
+#panel-7-2-0-1 article.team:hover .entry-header, #panel-7-2-0-1 article.team:hover .personal-extra, #panel-7-2-0-1 article.team:hover .post_content {
 	opacity: 1;
 }
 #panel-7-2-0-2 {
