@@ -187,12 +187,10 @@ article.hentry {
 #panel-7-2-0-1 .entry-content .excerpt {
 	position: absolute;
 	width: 80%;
-	height: 96px;
-	text-overflow:ellipsis;
-    white-space:nowrap;
+	height: 90px;
 	overflow: hidden;
 	font-size: 12px;
-	top: 70px;
+	top: 66px;
 	left: 10%;
 	color: #eee;
 	opacity: 0;
