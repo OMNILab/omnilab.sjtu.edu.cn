@@ -167,6 +167,9 @@ article.hentry {
 #panel-7-2-0-1 h5 {
 	color: #f2f2f2;
 }
+#panel-7-2-0-1 .entry-thumb img {
+	width: 100%;
+}
 #panel-7-2-0-1 .entry-footer {
 	display: none;
 }

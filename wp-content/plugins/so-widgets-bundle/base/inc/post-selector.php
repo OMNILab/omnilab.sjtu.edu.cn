@@ -90,7 +90,6 @@ function siteorigin_widget_post_selector_process_query($query){
 		$query = wp_parse_args( $query['additional'], $query );
 		unset( $query['additional'] );
 	}
-
 	return $query;
 }
 
