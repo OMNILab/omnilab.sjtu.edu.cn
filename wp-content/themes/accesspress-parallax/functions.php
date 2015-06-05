@@ -309,7 +309,7 @@ function computeOrder(){
 		$memberName = get_the_title();
 		$memberDegree = get_post_meta(get_the_ID(), "wpcf-degree", true);
 		$memberEntry = get_post_meta(get_the_ID(), "wpcf-entry-date", true);
-		update_post_meta($post->ID, "wpcf-sort", $memberDegree.$memberEntry.$memberName);
+		update_post_meta(get_the_ID(), "wpcf-sort", $memberDegree.$memberEntry.$memberName);
 	}
 }
 add_action('the_post', 'computeOrder');
