@@ -303,3 +303,18 @@ function honlan_features(){
         </div><!-- #primary -->';
 }
 add_shortcode('honlan_features', 'honlan_features');
+
+function computeOrder(){
+	if (get_post_type()=="team") {
+		$memberName = get_the_title();
+		$memberDegree = get_post_meta($post->ID, "wpcf-degree", true);
+		$memberEntry = get_post_meta($post->ID, "wpcf-entry-date", true);
+		update_pots_meta($post->ID, "wpcf-sort", $memberDegree.$memberEntry.$memberName);
+	}
+}
+add_action('the_post', 'computeOrder');
+add_action('save_post', 'computeOrder');
+add_action('draft_to_publish', 'computeOrder');
+add_action('new_to_publish', 'computeOrder');
+add_action('pending_to_publish', 'computeOrder');
+add_action('future_to_publish', 'computeOrder');
