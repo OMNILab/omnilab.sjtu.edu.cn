@@ -1867,14 +1867,20 @@ Responsive grid for pages
 }
 
 /* add by honlan */
-#primary {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+body {
+	min-width: 1080px;
 }
-#masthead {
-	padding-left: 20px;
-	padding-right: 10px;
+#primary {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#masthead .mid-content {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#masthead .mid-content #site-navigation {
+	margin-right: -15px;
 }
 #secondary {
 	display: none;
