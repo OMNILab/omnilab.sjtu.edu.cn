@@ -26,12 +26,15 @@ $post_date_class = ($post_date != 1 || has_post_thumbnail()) ? " no-date" : "";
 					echo "Professor";
 					break;
 				case 1:
-					echo "PhD Cand.";
+					echo "Research Assistant";
 					break;
 				case 2:
-					echo "Master Cand.";
+					echo "PhD Cand.";
 					break;
 				case 3:
+					echo "Master Cand.";
+					break;
+				case 4:
 					echo "Undergraduate";
 					break;
 			}
