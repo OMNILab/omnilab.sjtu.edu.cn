@@ -46,7 +46,7 @@ endif;
 				<img src="<?php echo get_stylesheet_directory_uri();?>/honlan/omnilab/logo.png" alt="<?php bloginfo( 'name' ); ?>">
 			</a>
 			<div id="site-titles">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</div>
 		<?php endif; ?>
