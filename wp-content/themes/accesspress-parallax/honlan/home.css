@@ -106,7 +106,7 @@ article.hentry {
 #panel-7-1-0-1 .entry-header {
 	position: absolute;
 	left: 0px;
-	bottom: -50px;
+	bottom: -100%;
 	padding: 6px;
 	width: 100%;
 	z-index: 999;
