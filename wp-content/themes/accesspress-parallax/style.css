@@ -1902,5 +1902,7 @@ body {
 #site-logo a img {
 	height: 60px;
 	width: auto;
-	float: left;
+}
+#site-titles {
+	display: inline-block;
 }

@@ -43,10 +43,12 @@ endif;
 		</a>
 		<?php else:?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php echo get_stylesheet_directory_uri();?>/honlan/omnilab/logo.jpg" alt="<?php bloginfo( 'name' ); ?>">
+				<img src="<?php echo get_stylesheet_directory_uri();?>/honlan/omnilab/logo.png" alt="<?php bloginfo( 'name' ); ?>">
 			</a>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<div id="site-titles">
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			</div>
 		<?php endif; ?>
 		</div>
 
