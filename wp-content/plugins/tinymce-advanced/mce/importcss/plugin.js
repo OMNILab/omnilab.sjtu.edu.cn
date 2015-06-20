@@ -45,7 +45,7 @@ tinymce.PluginManager.add('importcss', function(editor) {
 				rules = styleSheet.cssRules || styleSheet.rules;
 			} catch (e) {
 				// Firefox fails on rules to remote domain for example:
-				// @import url(//fonts.googleapis.com/css?family=Pathway+Gothic+One);
+				// @import url(//fonts.useso.com/css?family=Pathway+Gothic+One);
 			}
 
 			each(rules, function(cssRule) {

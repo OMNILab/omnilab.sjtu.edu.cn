@@ -1898,3 +1898,7 @@ body {
 	text-align: center;
 	float: none;
 }
+#site-logo a img {
+	height: 50px;
+	width: auto;
+}

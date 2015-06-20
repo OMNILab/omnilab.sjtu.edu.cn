@@ -520,7 +520,7 @@
   } );
 
   function addGfontLink (fonts ) {
-    var gfontUrl        = ['//fonts.googleapis.com/css?family='];
+    var gfontUrl        = ['//fonts.useso.com/css?family='];
     gfontUrl.push(fonts);
     if ( 0 === $('link#gfontlink' ).length ) {
         $gfontlink = $('<link>' , {

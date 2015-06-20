@@ -35,7 +35,7 @@ add_action( 'after_setup_theme', 'onetone_setup' );
 	wp_enqueue_style('onetone-owl-carousel',  get_template_directory_uri() .'/css/owl.carousel.css', false, '1.3.3', false);
 	wp_enqueue_style('onetone-owl-theme',  get_template_directory_uri() .'/css/owl.theme.css', false, '1.3.3', false);
 	wp_enqueue_style( 'onetone-main', get_stylesheet_uri(), array(), '1.4.3' );
-	wp_enqueue_style('Yanone-Kaffeesatz', esc_url('//fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Lustria|Raleway|Open+Sans:400,300'), false, '', false );
+	wp_enqueue_style('Yanone-Kaffeesatz', esc_url('//fonts.useso.com/css?family=Yanone+Kaffeesatz|Lustria|Raleway|Open+Sans:400,300'), false, '', false );
 	
 	
 		

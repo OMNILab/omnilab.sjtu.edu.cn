@@ -64,7 +64,7 @@ if ( ! class_exists( 'TC_admin_init' ) ) :
           str_replace(
             ',',
             '%2C',
-            sprintf( '//fonts.googleapis.com/css?family=%s', TC_utils::$inst -> tc_get_font( 'single' , $_font_pair ) )
+            sprintf( '//fonts.useso.com/css?family=%s', TC_utils::$inst -> tc_get_font( 'single' , $_font_pair ) )
           )
         );
       }

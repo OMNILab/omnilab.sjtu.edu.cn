@@ -32,7 +32,7 @@ function stronghold_theme_font_url($font) {
 	 * by Font, translate this to 'off'. Do not translate into your own language.
 	 */
 	if ( 'off' !== _x( 'on', 'Font: on or off', 'stronghold' ) ) {
-		$font_url = esc_url( add_query_arg( 'family', urlencode($font), "//fonts.googleapis.com/css" ) );
+		$font_url = esc_url( add_query_arg( 'family', urlencode($font), "//fonts.useso.com/css" ) );
 	}
 
 	return $font_url;

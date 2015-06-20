@@ -365,7 +365,7 @@ if ( ! class_exists( 'TC_resources' ) ) :
 
       wp_enqueue_style(
         'tc-gfonts',
-        sprintf( '//fonts.googleapis.com/css?family=%s', TC_utils::$inst -> tc_get_font( 'single' , $_font_pair ) ),
+        sprintf( '//fonts.useso.com/css?family=%s', TC_utils::$inst -> tc_get_font( 'single' , $_font_pair ) ),
         array(),
         null,
         'all'
