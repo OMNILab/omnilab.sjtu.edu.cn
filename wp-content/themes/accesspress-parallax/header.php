@@ -42,7 +42,7 @@ endif;
 			<img src="<?php header_image(); ?>" alt="<?php bloginfo( 'name' ); ?>">
 		</a>
 		<?php else:?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" style="position:absolute;">
 				<img src="<?php echo get_stylesheet_directory_uri();?>/honlan/omnilab/logo.png" alt="<?php bloginfo( 'name' ); ?>">
 			</a>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

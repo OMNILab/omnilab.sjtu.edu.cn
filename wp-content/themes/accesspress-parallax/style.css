@@ -1900,9 +1900,14 @@ body {
 }
 
 #site-logo a img {
-	height: 60px;
+	height: 50px;
 	width: auto;
+	position: relative;
+	top: 5px;
 }
-#site-titles {
-	display: inline-block;
+#site-logo h1.site-title {
+	margin-left: 60px;
+}
+#site-log h2.site-description {
+	margin-left: 60px;
 }
