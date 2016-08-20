@@ -20,7 +20,10 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
     <![endif]-->
 
-    <?php wp_head(); ?>
+    <?php 
+    wp_enqueue_script('omnilab_parallax-wow', get_template_directory_uri() . '/js/wow.js', array('jquery'), '1.0', true);
+    wp_head(); 
+    ?>
 </head>
 
 <body <?php body_class(); ?>>
